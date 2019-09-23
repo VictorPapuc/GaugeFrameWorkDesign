@@ -1,0 +1,8 @@
+/.idea
+.gauge
+/logs
+/reports
+target/generated-test-sources
+target/test-classes
+target/maven-status
+target/test-classes

@@ -1,4 +1,4 @@
-package com.thoughtworks.gauge.maven;
+package com.thoughtworks.gauge.steps;
 
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
