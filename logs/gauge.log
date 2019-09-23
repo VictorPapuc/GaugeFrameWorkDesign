@@ -1,0 +1,1050 @@
+23-09-2019 12:37:00.188 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 12:37:00.189 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 12:37:01.332 [Gauge] [DEBUG] Checking updates...
+23-09-2019 12:37:01.333 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 12:37:02.084 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 12:37:02.084 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 12:37:02.091 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 12:37:02.091 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 12:37:02.092 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 12:37:02.092 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 12:37:02.463 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 12:37:02.769 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 12:37:03.076 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 12:37:08.126 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x000000010ad94309 chromedriver + 3748617
+1   chromedriver                        0x000000010ad28943 chromedriver + 3307843
+2   chromedriver                        0x000000010aab844f chromedriver + 750671
+3   chromedriver                        0x000000010aa19c5b chromedriver + 101467
+4   chromedriver                        0x000000010aa15d51 chromedriver + 85329
+5   chromedriver                        0x000000010aa44217 chromedriver + 274967
+6   chromedriver                        0x000000010aa413e3 chromedriver + 263139
+7   chromedriver                        0x000000010aa1bd8d chromedriver + 109965
+8   chromedriver                        0x000000010aa1cd25 chromedriver + 113957
+9   chromedriver                        0x000000010ad573ef chromedriver + 3498991
+10  chromedriver                        0x000000010ad63fed chromedriver + 3551213
+11  chromedriver                        0x000000010ad63d78 chromedriver + 3550584
+12  chromedriver                        0x000000010ad36499 chromedriver + 3363993
+13  chromedriver                        0x000000010ad64848 chromedriver + 3553352
+14  chromedriver                        0x000000010ad4aea7 chromedriver + 3448487
+15  chromedriver                        0x000000010ad7a404 chromedriver + 3642372
+16  chromedriver                        0x000000010ad9a0f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 12:37:08.126 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 12:37:08.126 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 12:37:08.126 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 12:37:08.188 [Gauge] [INFO] Closing connection [127.0.0.1:63189] cause: EOF
+23-09-2019 12:37:08.235 [Gauge] [DEBUG] Plugin [Html Report] with pid [39058] has exited
+23-09-2019 12:37:08.661 [Gauge] [INFO] Closing connection [127.0.0.1:63183] cause: EOF
+23-09-2019 12:37:08.751 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 12:37:08.751 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 12:37:08.751 [Gauge] [INFO] 
+Total time taken: 5.233s
+23-09-2019 15:13:24.722 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:13:24.722 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:13:25.705 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:13:25.706 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:13:26.633 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:13:26.823 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:13:26.823 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:13:26.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:13:26.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:13:26.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:13:26.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:13:26.934 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:13:27.162 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:13:31.397 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x0000000104cd5309 chromedriver + 3748617
+1   chromedriver                        0x0000000104c69943 chromedriver + 3307843
+2   chromedriver                        0x00000001049f944f chromedriver + 750671
+3   chromedriver                        0x000000010495ac5b chromedriver + 101467
+4   chromedriver                        0x0000000104956d51 chromedriver + 85329
+5   chromedriver                        0x0000000104985217 chromedriver + 274967
+6   chromedriver                        0x00000001049823e3 chromedriver + 263139
+7   chromedriver                        0x000000010495cd8d chromedriver + 109965
+8   chromedriver                        0x000000010495dd25 chromedriver + 113957
+9   chromedriver                        0x0000000104c983ef chromedriver + 3498991
+10  chromedriver                        0x0000000104ca4fed chromedriver + 3551213
+11  chromedriver                        0x0000000104ca4d78 chromedriver + 3550584
+12  chromedriver                        0x0000000104c77499 chromedriver + 3363993
+13  chromedriver                        0x0000000104ca5848 chromedriver + 3553352
+14  chromedriver                        0x0000000104c8bea7 chromedriver + 3448487
+15  chromedriver                        0x0000000104cbb404 chromedriver + 3642372
+16  chromedriver                        0x0000000104cdb0f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:13:31.398 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:13:31.398 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:13:31.398 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:13:31.415 [Gauge] [INFO] Closing connection [127.0.0.1:55158] cause: read tcp 127.0.0.1:55155->127.0.0.1:55158: read: connection reset by peer
+23-09-2019 15:13:31.504 [Gauge] [DEBUG] Plugin [Html Report] with pid [40748] has exited
+23-09-2019 15:13:31.913 [Gauge] [INFO] Closing connection [127.0.0.1:55140] cause: EOF
+23-09-2019 15:13:31.916 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:13:31.916 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:13:31.916 [Gauge] [INFO] 
+Total time taken: 3.769s
+23-09-2019 15:24:51.910 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:24:51.911 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:24:52.807 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:24:52.808 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:24:53.834 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:24:53.846 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:24:53.846 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:24:53.854 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:24:53.854 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:24:53.854 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:24:53.854 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:24:54.142 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:24:54.448 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:24:58.090 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x00000001068f9309 chromedriver + 3748617
+1   chromedriver                        0x000000010688d943 chromedriver + 3307843
+2   chromedriver                        0x000000010661d44f chromedriver + 750671
+3   chromedriver                        0x000000010657ec5b chromedriver + 101467
+4   chromedriver                        0x000000010657ad51 chromedriver + 85329
+5   chromedriver                        0x00000001065a9217 chromedriver + 274967
+6   chromedriver                        0x00000001065a63e3 chromedriver + 263139
+7   chromedriver                        0x0000000106580d8d chromedriver + 109965
+8   chromedriver                        0x0000000106581d25 chromedriver + 113957
+9   chromedriver                        0x00000001068bc3ef chromedriver + 3498991
+10  chromedriver                        0x00000001068c8fed chromedriver + 3551213
+11  chromedriver                        0x00000001068c8d78 chromedriver + 3550584
+12  chromedriver                        0x000000010689b499 chromedriver + 3363993
+13  chromedriver                        0x00000001068c9848 chromedriver + 3553352
+14  chromedriver                        0x00000001068afea7 chromedriver + 3448487
+15  chromedriver                        0x00000001068df404 chromedriver + 3642372
+16  chromedriver                        0x00000001068ff0f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:24:58.091 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:24:58.091 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:24:58.091 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:24:58.106 [Gauge] [INFO] Closing connection [127.0.0.1:58119] cause: EOF
+23-09-2019 15:24:58.195 [Gauge] [DEBUG] Plugin [Html Report] with pid [40837] has exited
+23-09-2019 15:24:58.611 [Gauge] [INFO] Closing connection [127.0.0.1:58101] cause: EOF
+23-09-2019 15:24:58.711 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:24:58.711 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:24:58.711 [Gauge] [INFO] 
+Total time taken: 3.485s
+23-09-2019 15:26:41.397 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:26:41.397 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:26:41.401 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/buy_product_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:26:41.401 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/tab_functionality_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:26:42.478 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:26:42.478 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:26:43.076 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:26:43.076 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:26:43.083 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:26:43.083 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:26:43.083 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:26:43.083 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:26:43.402 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:26:43.745 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:26:43.989 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:26:47.781 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x0000000102725309 chromedriver + 3748617
+1   chromedriver                        0x00000001026b9943 chromedriver + 3307843
+2   chromedriver                        0x000000010244944f chromedriver + 750671
+3   chromedriver                        0x00000001023aac5b chromedriver + 101467
+4   chromedriver                        0x00000001023a6d51 chromedriver + 85329
+5   chromedriver                        0x00000001023d5217 chromedriver + 274967
+6   chromedriver                        0x00000001023d23e3 chromedriver + 263139
+7   chromedriver                        0x00000001023acd8d chromedriver + 109965
+8   chromedriver                        0x00000001023add25 chromedriver + 113957
+9   chromedriver                        0x00000001026e83ef chromedriver + 3498991
+10  chromedriver                        0x00000001026f4fed chromedriver + 3551213
+11  chromedriver                        0x00000001026f4d78 chromedriver + 3550584
+12  chromedriver                        0x00000001026c7499 chromedriver + 3363993
+13  chromedriver                        0x00000001026f5848 chromedriver + 3553352
+14  chromedriver                        0x00000001026dbea7 chromedriver + 3448487
+15  chromedriver                        0x000000010270b404 chromedriver + 3642372
+16  chromedriver                        0x000000010272b0f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:26:47.781 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:26:47.781 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:26:47.781 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:26:47.799 [Gauge] [INFO] Closing connection [127.0.0.1:58587] cause: EOF
+23-09-2019 15:26:47.883 [Gauge] [DEBUG] Plugin [Html Report] with pid [40883] has exited
+23-09-2019 15:26:48.317 [Gauge] [INFO] Closing connection [127.0.0.1:58574] cause: EOF
+23-09-2019 15:26:48.399 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:26:48.399 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:26:48.399 [Gauge] [INFO] 
+Total time taken: 3.76s
+23-09-2019 15:35:54.967 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:35:54.968 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:35:56.008 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:35:56.009 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:35:56.917 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:35:56.917 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:35:56.924 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:35:56.924 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:35:56.925 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:35:56.925 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:35:56.977 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:35:57.282 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:35:57.504 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:36:01.002 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x00000001069ce309 chromedriver + 3748617
+1   chromedriver                        0x0000000106962943 chromedriver + 3307843
+2   chromedriver                        0x00000001066f244f chromedriver + 750671
+3   chromedriver                        0x0000000106653c5b chromedriver + 101467
+4   chromedriver                        0x000000010664fd51 chromedriver + 85329
+5   chromedriver                        0x000000010667e217 chromedriver + 274967
+6   chromedriver                        0x000000010667b3e3 chromedriver + 263139
+7   chromedriver                        0x0000000106655d8d chromedriver + 109965
+8   chromedriver                        0x0000000106656d25 chromedriver + 113957
+9   chromedriver                        0x00000001069913ef chromedriver + 3498991
+10  chromedriver                        0x000000010699dfed chromedriver + 3551213
+11  chromedriver                        0x000000010699dd78 chromedriver + 3550584
+12  chromedriver                        0x0000000106970499 chromedriver + 3363993
+13  chromedriver                        0x000000010699e848 chromedriver + 3553352
+14  chromedriver                        0x0000000106984ea7 chromedriver + 3448487
+15  chromedriver                        0x00000001069b4404 chromedriver + 3642372
+16  chromedriver                        0x00000001069d40f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:36:01.002 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:36:01.002 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:36:01.002 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:36:01.021 [Gauge] [INFO] Closing connection [127.0.0.1:60979] cause: EOF
+23-09-2019 15:36:01.110 [Gauge] [DEBUG] Plugin [Html Report] with pid [42257] has exited
+23-09-2019 15:36:01.537 [Gauge] [INFO] Closing connection [127.0.0.1:60965] cause: EOF
+23-09-2019 15:36:01.631 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:36:01.631 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:36:01.631 [Gauge] [INFO] 
+Total time taken: 3.366s
+23-09-2019 15:37:36.662 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:37:36.662 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:37:36.666 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/buy_product_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:37:36.666 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/tab_functionality_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:37:37.840 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:37:37.841 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:37:38.294 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:37:38.294 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:37:38.301 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:37:38.301 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:37:38.302 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:37:38.302 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:37:38.762 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:37:39.073 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:37:39.353 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:37:42.512 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x0000000105b23309 chromedriver + 3748617
+1   chromedriver                        0x0000000105ab7943 chromedriver + 3307843
+2   chromedriver                        0x000000010584744f chromedriver + 750671
+3   chromedriver                        0x00000001057a8c5b chromedriver + 101467
+4   chromedriver                        0x00000001057a4d51 chromedriver + 85329
+5   chromedriver                        0x00000001057d3217 chromedriver + 274967
+6   chromedriver                        0x00000001057d03e3 chromedriver + 263139
+7   chromedriver                        0x00000001057aad8d chromedriver + 109965
+8   chromedriver                        0x00000001057abd25 chromedriver + 113957
+9   chromedriver                        0x0000000105ae63ef chromedriver + 3498991
+10  chromedriver                        0x0000000105af2fed chromedriver + 3551213
+11  chromedriver                        0x0000000105af2d78 chromedriver + 3550584
+12  chromedriver                        0x0000000105ac5499 chromedriver + 3363993
+13  chromedriver                        0x0000000105af3848 chromedriver + 3553352
+14  chromedriver                        0x0000000105ad9ea7 chromedriver + 3448487
+15  chromedriver                        0x0000000105b09404 chromedriver + 3642372
+16  chromedriver                        0x0000000105b290f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:37:42.512 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:37:42.513 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:37:42.513 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:37:42.530 [Gauge] [INFO] Closing connection [127.0.0.1:61413] cause: EOF
+23-09-2019 15:37:42.616 [Gauge] [DEBUG] Plugin [Html Report] with pid [42303] has exited
+23-09-2019 15:37:43.047 [Gauge] [INFO] Closing connection [127.0.0.1:61400] cause: EOF
+23-09-2019 15:37:43.128 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:37:43.128 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:37:43.128 [Gauge] [INFO] 
+Total time taken: 3.416s
+23-09-2019 15:43:44.530 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:43:44.531 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:43:44.535 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/buy_product_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:43:44.535 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/tab_functionality_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:43:45.456 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:43:45.457 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:43:46.100 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:43:46.100 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:43:46.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:43:46.107 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:43:46.108 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:43:46.108 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:43:46.481 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:43:46.789 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:43:47.098 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:43:50.233 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x000000010a22f309 chromedriver + 3748617
+1   chromedriver                        0x000000010a1c3943 chromedriver + 3307843
+2   chromedriver                        0x0000000109f5344f chromedriver + 750671
+3   chromedriver                        0x0000000109eb4c5b chromedriver + 101467
+4   chromedriver                        0x0000000109eb0d51 chromedriver + 85329
+5   chromedriver                        0x0000000109edf217 chromedriver + 274967
+6   chromedriver                        0x0000000109edc3e3 chromedriver + 263139
+7   chromedriver                        0x0000000109eb6d8d chromedriver + 109965
+8   chromedriver                        0x0000000109eb7d25 chromedriver + 113957
+9   chromedriver                        0x000000010a1f23ef chromedriver + 3498991
+10  chromedriver                        0x000000010a1fefed chromedriver + 3551213
+11  chromedriver                        0x000000010a1fed78 chromedriver + 3550584
+12  chromedriver                        0x000000010a1d1499 chromedriver + 3363993
+13  chromedriver                        0x000000010a1ff848 chromedriver + 3553352
+14  chromedriver                        0x000000010a1e5ea7 chromedriver + 3448487
+15  chromedriver                        0x000000010a215404 chromedriver + 3642372
+16  chromedriver                        0x000000010a2350f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:43:50.234 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:43:50.234 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:43:50.234 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:43:50.260 [Gauge] [INFO] Closing connection [127.0.0.1:63096] cause: EOF
+23-09-2019 15:43:50.336 [Gauge] [DEBUG] Plugin [Html Report] with pid [42485] has exited
+23-09-2019 15:43:50.747 [Gauge] [INFO] Closing connection [127.0.0.1:63082] cause: EOF
+23-09-2019 15:43:50.850 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:43:50.851 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:43:50.851 [Gauge] [INFO] 
+Total time taken: 3.382s
+23-09-2019 15:48:41.461 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:48:41.462 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:48:41.466 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/buy_product_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:48:41.466 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/tab_functionality_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:48:42.724 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:48:42.724 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:48:43.025 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:48:43.025 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:48:43.032 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:48:43.032 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:48:43.032 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:48:43.032 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:48:43.646 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:48:43.955 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:48:44.235 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:48:47.185 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x0000000107f93309 chromedriver + 3748617
+1   chromedriver                        0x0000000107f27943 chromedriver + 3307843
+2   chromedriver                        0x0000000107cb744f chromedriver + 750671
+3   chromedriver                        0x0000000107c18c5b chromedriver + 101467
+4   chromedriver                        0x0000000107c14d51 chromedriver + 85329
+5   chromedriver                        0x0000000107c43217 chromedriver + 274967
+6   chromedriver                        0x0000000107c403e3 chromedriver + 263139
+7   chromedriver                        0x0000000107c1ad8d chromedriver + 109965
+8   chromedriver                        0x0000000107c1bd25 chromedriver + 113957
+9   chromedriver                        0x0000000107f563ef chromedriver + 3498991
+10  chromedriver                        0x0000000107f62fed chromedriver + 3551213
+11  chromedriver                        0x0000000107f62d78 chromedriver + 3550584
+12  chromedriver                        0x0000000107f35499 chromedriver + 3363993
+13  chromedriver                        0x0000000107f63848 chromedriver + 3553352
+14  chromedriver                        0x0000000107f49ea7 chromedriver + 3448487
+15  chromedriver                        0x0000000107f79404 chromedriver + 3642372
+16  chromedriver                        0x0000000107f990f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:48:47.186 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:48:47.186 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:48:47.186 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:48:47.212 [Gauge] [INFO] Closing connection [127.0.0.1:64383] cause: EOF
+23-09-2019 15:48:47.293 [Gauge] [DEBUG] Plugin [Html Report] with pid [42535] has exited
+23-09-2019 15:48:47.729 [Gauge] [INFO] Closing connection [127.0.0.1:64370] cause: EOF
+23-09-2019 15:48:47.808 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:48:47.808 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:48:47.808 [Gauge] [INFO] 
+Total time taken: 3.414s
+23-09-2019 15:50:14.237 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:50:14.237 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:50:14.241 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/tab_functionality_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:50:14.241 [Gauge] [ERROR] [ParseError] /Users/victor.papuc/IdeaProjects/testselenium/specs/ogrcrew/buy_product_web.spec:8 Scenario should have atleast one step => ''
+23-09-2019 15:50:15.487 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:50:15.488 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:50:15.698 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:50:15.698 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:50:15.706 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:50:15.706 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:50:15.707 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:50:15.707 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:50:16.321 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:50:16.547 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:50:16.774 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:50:19.800 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x0000000102bc7309 chromedriver + 3748617
+1   chromedriver                        0x0000000102b5b943 chromedriver + 3307843
+2   chromedriver                        0x00000001028eb44f chromedriver + 750671
+3   chromedriver                        0x000000010284cc5b chromedriver + 101467
+4   chromedriver                        0x0000000102848d51 chromedriver + 85329
+5   chromedriver                        0x0000000102877217 chromedriver + 274967
+6   chromedriver                        0x00000001028743e3 chromedriver + 263139
+7   chromedriver                        0x000000010284ed8d chromedriver + 109965
+8   chromedriver                        0x000000010284fd25 chromedriver + 113957
+9   chromedriver                        0x0000000102b8a3ef chromedriver + 3498991
+10  chromedriver                        0x0000000102b96fed chromedriver + 3551213
+11  chromedriver                        0x0000000102b96d78 chromedriver + 3550584
+12  chromedriver                        0x0000000102b69499 chromedriver + 3363993
+13  chromedriver                        0x0000000102b97848 chromedriver + 3553352
+14  chromedriver                        0x0000000102b7dea7 chromedriver + 3448487
+15  chromedriver                        0x0000000102bad404 chromedriver + 3642372
+16  chromedriver                        0x0000000102bcd0f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:50:19.800 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:50:19.800 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:50:19.801 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:50:19.866 [Gauge] [INFO] Closing connection [127.0.0.1:64799] cause: read tcp 127.0.0.1:64796->127.0.0.1:64799: read: connection reset by peer
+23-09-2019 15:50:19.943 [Gauge] [DEBUG] Plugin [Html Report] with pid [42581] has exited
+23-09-2019 15:50:20.378 [Gauge] [INFO] Closing connection [127.0.0.1:64785] cause: EOF
+23-09-2019 15:50:20.463 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:50:20.463 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:50:20.463 [Gauge] [INFO] 
+Total time taken: 3.348s
+23-09-2019 15:53:30.844 [Gauge] [DEBUG] Plugin java is already installed.
+23-09-2019 15:53:30.844 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-09-2019 15:53:31.901 [Gauge] [DEBUG] Checking updates...
+23-09-2019 15:53:31.901 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:53:32.930 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:53:33.237 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:53:33.546 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=amd64
+23-09-2019 15:53:38.205 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+23-09-2019 15:53:38.207 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+23-09-2019 15:53:38.216 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+23-09-2019 15:53:38.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+23-09-2019 15:53:38.216 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+23-09-2019 15:53:38.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+23-09-2019 15:53:42.986 [Gauge] [ERROR] Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'vpapuc-mac.local', ip: 'fe80:0:0:0:48c:e216:4103:a5e8%!e(MISSING)n0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x0000000106fae309 chromedriver + 3748617
+1   chromedriver                        0x0000000106f42943 chromedriver + 3307843
+2   chromedriver                        0x0000000106cd244f chromedriver + 750671
+3   chromedriver                        0x0000000106c33c5b chromedriver + 101467
+4   chromedriver                        0x0000000106c2fd51 chromedriver + 85329
+5   chromedriver                        0x0000000106c5e217 chromedriver + 274967
+6   chromedriver                        0x0000000106c5b3e3 chromedriver + 263139
+7   chromedriver                        0x0000000106c35d8d chromedriver + 109965
+8   chromedriver                        0x0000000106c36d25 chromedriver + 113957
+9   chromedriver                        0x0000000106f713ef chromedriver + 3498991
+10  chromedriver                        0x0000000106f7dfed chromedriver + 3551213
+11  chromedriver                        0x0000000106f7dd78 chromedriver + 3550584
+12  chromedriver                        0x0000000106f50499 chromedriver + 3363993
+13  chromedriver                        0x0000000106f7e848 chromedriver + 3553352
+14  chromedriver                        0x0000000106f64ea7 chromedriver + 3448487
+15  chromedriver                        0x0000000106f94404 chromedriver + 3642372
+16  chromedriver                        0x0000000106fb40f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff5f7112eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5f714249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5f71040d thread_start + 13
+23-09-2019 15:53:42.986 [Gauge] [ERROR] Stacktrace: 
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+driver.DriverFactory.getDriver(DriverFactory.java:39)
+driver.Driver.initializeDriver(Driver.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:36)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:53:42.987 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+23-09-2019 15:53:42.987 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:35)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:83)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:127)
+com.thoughtworks.gauge.GaugeRuntime.lambda$connectSynchronously$1(GaugeRuntime.java:107)
+java.base/java.lang.Thread.run(Thread.java:834)
+23-09-2019 15:53:43.002 [Gauge] [INFO] Closing connection [127.0.0.1:49361] cause: EOF
+23-09-2019 15:53:43.092 [Gauge] [DEBUG] Plugin [Html Report] with pid [42658] has exited
+23-09-2019 15:53:43.528 [Gauge] [INFO] Closing connection [127.0.0.1:49345] cause: EOF
+23-09-2019 15:53:43.611 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:53:43.611 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+23-09-2019 15:53:43.611 [Gauge] [INFO] 
+Total time taken: 3.875s

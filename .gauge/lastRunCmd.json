@@ -1,0 +1,6 @@
+[
+	"/usr/local/bin/gauge",
+	"run",
+	"--simple-console",
+	"/Users/victor.papuc/IdeaProjects/testselenium/specs/example.spec"
+]
