@@ -1,0 +1,17 @@
+Main page scenerios :
+
+Titles
+1. Verify if the title is ogrcrew.com
+
+
+Tabs:
+1. Verify Home Tab functionality
+2. Verify when home page is clicked the page is refreshing
+3. Verify if the user can scroll in the page up and down
+4. Verify if new flavours in town link exist and it's clickable
+5. Verify if positive mental attitude link exist and it's clickable
+6. Verify if No future link exist and it's clickable
+7. Verify when the user clicks on OGR Crew icon it redirects him to home page
+8. Verify if the links at the bottom of the page are functional and present
+9.
+
