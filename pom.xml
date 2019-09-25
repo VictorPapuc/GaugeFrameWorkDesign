@@ -35,7 +35,51 @@
             <artifactId>reflections</artifactId>
             <version>0.9.10</version>
         </dependency>
+
+<!-- lombok annotation-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <scope>provided</scope>
+        </dependency>
+<!--        log4j dependency -->
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+<!-- appium dependency-->
+
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>7.2.0</version>
+        </dependency>
+
     </dependencies>
+
+<!--spring to do , to make-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>springframework</groupId>
+                <artifactId>spring</artifactId>
+                <version>2.0-M4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>spring-mock-mvc</artifactId>
+                <version>3.0.3</version>
+                <scope>test</scope>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+
 
     <build>
         <plugins>
