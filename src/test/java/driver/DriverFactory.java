@@ -1,6 +1,7 @@
 package driver;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.DriverManagerType;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import io.github.bonigarcia.wdm.InternetExplorerDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,13 @@ public class DriverFactory {
     // Get a new WebDriver Instance.
     // There are various implementations for this depending on browser. The required browser can be set as an environment variable.
     // Refer http://getgauge.io/documentation/user/current/managing_environments/README.html
+
+
+
+
+
+
+
     public static WebDriver getDriver() {
 
         String browser = System.getenv("BROWSER");
@@ -21,21 +29,21 @@ public class DriverFactory {
 
         switch (browser) {
             case "IE":
-                InternetExplorerDriverManager.getInstance().setup();
+                InternetExplorerDriverManager.getInstance(DriverManagerType.IEXPLORER).setup();
                 return new InternetExplorerDriver();
             case "FIREFOX":
-                FirefoxDriverManager.getInstance().setup();
+                FirefoxDriverManager.getInstance(DriverManagerType.FIREFOX).setup();
                 return new FirefoxDriver();
             case "CHROME":
             default:
-	            ChromeDriverManager.getInstance().setup();
-	
+	            ChromeDriverManager.getInstance(DriverManagerType.CHROME).setup();
+
 	            ChromeOptions options = new ChromeOptions();
 	            if ("Y".equalsIgnoreCase(System.getenv("HEADLESS"))) {
 	                options.addArguments("--headless");
 	                options.addArguments("--disable-gpu");
 	            }
-	
+
 	            return new ChromeDriver(options);
         }
     }
