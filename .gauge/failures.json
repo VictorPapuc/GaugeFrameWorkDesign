@@ -1,7 +1,7 @@
 {
 	"Args": [
 		"run",
-		"--simple-console"
+		"--dir=/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign"
 	],
 	"FailedItems": [
 		"specs/example.spec:9"

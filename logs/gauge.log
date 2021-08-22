@@ -1325,3 +1325,747 @@ java.base/java.lang.Thread.run(Thread.java:834)
 23-09-2019 16:38:22.440 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
 23-09-2019 16:38:22.440 [Gauge] [INFO] 
 Total time taken: 6.798s
+22-08-2021 16:51:45.376 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/.gauge/screenshots
+22-08-2021 16:51:45.377 [Gauge] [INFO] Compatible version of plugin java not found. Installing plugin java...
+22-08-2021 16:51:45.377 [Gauge] [DEBUG] Gathering metadata for java
+22-08-2021 16:51:45.377 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=&o=darwin&a=arm64
+22-08-2021 16:51:45.741 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-darwin.x86_64.zip
+22-08-2021 16:51:47.076 [Gauge] [DEBUG] Installing plugin java 0.7.15
+22-08-2021 16:51:47.104 [Gauge] [INFO] Successfully installed plugin 'java' version 0.7.15
+22-08-2021 16:51:47.104 [Gauge] [INFO] Compatible version of plugin html-report not found. Installing plugin html-report...
+22-08-2021 16:51:47.104 [Gauge] [DEBUG] Gathering metadata for html-report
+22-08-2021 16:51:47.104 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=java&o=darwin&a=arm64
+22-08-2021 16:51:47.168 [Gauge] [DEBUG] Downloading https://github.com/getgauge/html-report/releases/download/v4.1.2/html-report-4.1.2-darwin.arm64.zip
+22-08-2021 16:51:47.954 [Gauge] [DEBUG] Installing plugin html-report 4.1.2
+22-08-2021 16:51:47.970 [Gauge] [INFO] Successfully installed plugin 'html-report' version 4.1.2
+22-08-2021 16:51:47.970 [Gauge] [INFO] Installing required plugins.
+22-08-2021 16:51:47.970 [Gauge] [DEBUG] Installing plugin 'screenshot'
+22-08-2021 16:51:47.970 [Gauge] [DEBUG] Gathering metadata for screenshot
+22-08-2021 16:51:47.970 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java&o=darwin&a=arm64
+22-08-2021 16:51:48.026 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge_screenshot/releases/download/v0.1.0/screenshot-0.1.0-darwin.x86_64.zip
+22-08-2021 16:51:48.155 [Gauge] [DEBUG] Checking updates...
+22-08-2021 16:51:48.156 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java&o=darwin&a=arm64
+22-08-2021 16:51:48.216 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java&o=darwin&a=arm64
+22-08-2021 16:51:48.741 [Gauge] [DEBUG] Installing plugin screenshot 0.1.0
+22-08-2021 16:51:48.744 [Gauge] [INFO] Successfully installed plugin 'screenshot' version 0.1.0
+22-08-2021 16:51:48.744 [Gauge] [DEBUG] Parsing started.
+22-08-2021 16:51:48.744 [Gauge] [DEBUG] Started concepts parsing.
+22-08-2021 16:51:48.745 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-08-2021 16:51:48.746 [Gauge] [DEBUG] Started specifications parsing.
+22-08-2021 16:51:48.747 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-08-2021 16:51:48.747 [Gauge] [DEBUG] Parsing completed.
+22-08-2021 16:51:49.020 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-08-2021 16:51:49.020 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/bin:/Users/victorpapuc/Library/Android/sdk/cmdline-tools/latest/bin:/Users/victorpapuc/Library/Android/sdk/build-tools/30.0.3:/Users/victorpapuc/Library/Android/sdk/platform-tools:/Users/victorpapuc/.gauge/plugins/screenshot/0.1.0
+22-08-2021 16:51:49.020 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_project_root: 
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_parallel_streams_count: 
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_reports_dir: reports
+22-08-2021 16:51:49.020 [java] [DEBUG] overwrite_reports: true
+22-08-2021 16:51:49.020 [java] [DEBUG] logs_directory: logs
+22-08-2021 16:51:49.020 [java] [DEBUG] enable_multithreading: false
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_specs_dir: specs
+22-08-2021 16:51:49.020 [java] [DEBUG] csv_delimiter: ,
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_java_home: 
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_custom_build_path: 
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_additional_libs: libs/*
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_jvm_args: 
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_custom_compile_dir: 
+22-08-2021 16:51:49.020 [java] [DEBUG] gauge_clear_state_level: scenario
+22-08-2021 16:51:49.020 [java] [DEBUG] ***** END *****
+22-08-2021 16:51:58.238 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/.gauge/screenshots
+22-08-2021 16:51:58.238 [Gauge] [DEBUG] Plugin java is already installed.
+22-08-2021 16:51:58.238 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-08-2021 16:51:58.238 [Gauge] [DEBUG] Parsing started.
+22-08-2021 16:51:58.238 [Gauge] [DEBUG] Started concepts parsing.
+22-08-2021 16:51:58.239 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-08-2021 16:51:58.239 [Gauge] [DEBUG] Started specifications parsing.
+22-08-2021 16:51:58.240 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-08-2021 16:51:58.240 [Gauge] [DEBUG] Parsing completed.
+22-08-2021 16:51:58.251 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-08-2021 16:51:58.251 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/bin:/Users/victorpapuc/Library/Android/sdk/cmdline-tools/latest/bin:/Users/victorpapuc/Library/Android/sdk/build-tools/30.0.3:/Users/victorpapuc/Library/Android/sdk/platform-tools:/Users/victorpapuc/.gauge/plugins/screenshot/0.1.0
+22-08-2021 16:51:58.251 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_project_root: 
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_parallel_streams_count: 
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_reports_dir: reports
+22-08-2021 16:51:58.251 [java] [DEBUG] overwrite_reports: true
+22-08-2021 16:51:58.251 [java] [DEBUG] logs_directory: logs
+22-08-2021 16:51:58.251 [java] [DEBUG] enable_multithreading: false
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_specs_dir: specs
+22-08-2021 16:51:58.251 [java] [DEBUG] csv_delimiter: ,
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_java_home: 
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_custom_build_path: 
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_additional_libs: libs/*
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_jvm_args: 
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_custom_compile_dir: 
+22-08-2021 16:51:58.251 [java] [DEBUG] gauge_clear_state_level: scenario
+22-08-2021 16:51:58.251 [java] [DEBUG] ***** END *****
+22-08-2021 16:51:58.558 [Gauge] [DEBUG] Checking updates...
+22-08-2021 16:51:58.559 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:51:58.702 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:51:58.777 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:52:01.321 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/tools.jar:/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/test-classes:/Users/victorpapuc/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/victorpapuc/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/victorpapuc/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/victorpapuc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/victorpapuc/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/victorpapuc/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/victorpapuc/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/victorpapuc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victorpapuc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victorpapuc/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/victorpapuc/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/victorpapuc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/victorpapuc/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/victorpapuc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/victorpapuc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/victorpapuc/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/victorpapuc/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/victorpapuc/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/victorpapuc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victorpapuc/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/victorpapuc/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/victorpapuc/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/victorpapuc/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.0/webdrivermanager-3.7.0.jar:/Users/victorpapuc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/victorpapuc/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/victorpapuc/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/victorpapuc/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/victorpapuc/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/victorpapuc/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/victorpapuc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/victorpapuc/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/victorpapuc/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/victorpapuc/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/victorpapuc/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/victorpapuc/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/victorpapuc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/victorpapuc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar
+22-08-2021 16:52:01.342 [java] [DEBUG] found java executable in /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java
+22-08-2021 16:52:01.343 [java] [DEBUG] running - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-08-2021 16:52:01.343 [java] [DEBUG] stdout/stderr is logged to logs/69407-java.out
+22-08-2021 16:52:01.612 [java] [DEBUG] multithreading is set to false
+22-08-2021 16:52:02.414 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-08-2021 16:52:02.580 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-08-2021 16:52:02.580 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-08-2021 16:52:02.580 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-08-2021 16:52:02.621 [java] [ERROR] log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+22-08-2021 16:52:02.621 [java] [ERROR] log4j:WARN Please initialize the log4j system properly.
+22-08-2021 16:52:02.621 [java] [ERROR] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+22-08-2021 16:52:02.928 [java] [DEBUG] gauge-java took 1314milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-08-2021 16:52:02.928 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1314
+22-08-2021 16:52:02.928 [java] [DEBUG] starting gRPC server...
+22-08-2021 16:52:03.442 [java] [DEBUG] started gRPC server on port 56160
+22-08-2021 16:52:03.442 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56160
+22-08-2021 16:52:03.648 [Gauge] [DEBUG] Successfully made the connection with runner with port: 56160
+22-08-2021 16:52:03.648 [Gauge] [DEBUG] Validation started.
+22-08-2021 16:52:05.396 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/tools.jar:/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/test-classes:/Users/victorpapuc/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/victorpapuc/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/victorpapuc/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/victorpapuc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/victorpapuc/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/victorpapuc/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/victorpapuc/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/victorpapuc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victorpapuc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victorpapuc/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/victorpapuc/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/victorpapuc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/victorpapuc/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/victorpapuc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/victorpapuc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/victorpapuc/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/victorpapuc/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/victorpapuc/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/victorpapuc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victorpapuc/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/victorpapuc/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/victorpapuc/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/victorpapuc/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.0/webdrivermanager-3.7.0.jar:/Users/victorpapuc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/victorpapuc/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/victorpapuc/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/victorpapuc/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/victorpapuc/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/victorpapuc/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/victorpapuc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/victorpapuc/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/victorpapuc/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/victorpapuc/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/victorpapuc/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/victorpapuc/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/victorpapuc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/victorpapuc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar
+22-08-2021 16:52:05.402 [java] [DEBUG] found java executable in /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java
+22-08-2021 16:52:05.402 [java] [DEBUG] running - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-08-2021 16:52:05.402 [java] [DEBUG] stdout/stderr is logged to logs/69430-java.out
+22-08-2021 16:52:05.753 [java] [DEBUG] multithreading is set to false
+22-08-2021 16:52:06.434 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-08-2021 16:52:06.565 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-08-2021 16:52:06.565 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-08-2021 16:52:06.565 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-08-2021 16:52:06.627 [java] [ERROR] log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+22-08-2021 16:52:06.627 [java] [ERROR] log4j:WARN Please initialize the log4j system properly.
+22-08-2021 16:52:06.627 [java] [ERROR] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+22-08-2021 16:52:06.895 [java] [DEBUG] Scanning packages for steps
+22-08-2021 16:52:06.949 [java] [DEBUG] gauge-java took 1196milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-08-2021 16:52:06.949 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1196
+22-08-2021 16:52:06.949 [java] [DEBUG] starting gRPC server...
+22-08-2021 16:52:06.950 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction' and 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction'
+22-08-2021 16:52:06.950 [java] [DEBUG] Found Enter page in current project scope.
+22-08-2021 16:52:06.952 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable'
+22-08-2021 16:52:06.952 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+22-08-2021 16:52:06.953 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage' and 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage'
+22-08-2021 16:52:06.953 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+22-08-2021 16:52:06.953 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.implementation1' and 'com.thoughtworks.gauge.steps.StepImplementation.implementation1'
+22-08-2021 16:52:06.953 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+22-08-2021 16:52:06.953 [java] [DEBUG] Scanning packages for hooks
+22-08-2021 16:52:06.971 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-08-2021 16:52:06.972 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+22-08-2021 16:52:06.972 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+22-08-2021 16:52:06.972 [java] [DEBUG] 	Enter page : public void doAction()
+22-08-2021 16:52:06.972 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+22-08-2021 16:52:07.146 [java] [DEBUG] started gRPC server on port 56163
+22-08-2021 16:52:07.146 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56163
+22-08-2021 16:52:07.405 [Gauge] [DEBUG] Successfully made the connection with runner with port: 56163
+22-08-2021 16:52:07.405 [Gauge] [DEBUG] Validation started.
+22-08-2021 16:52:09.190 [Gauge] [DEBUG] Validation completed.
+22-08-2021 16:52:09.191 [Gauge] [DEBUG] Run started
+22-08-2021 16:52:09.191 [Gauge] [DEBUG] Starting Html Report plugin
+22-08-2021 16:52:09.401 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56168
+22-08-2021 16:52:09.401 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56168
+22-08-2021 16:52:09.401 [Gauge] [DEBUG] Initialising suite data store.
+22-08-2021 16:52:10.908 [java] [DEBUG] Scanning packages for steps
+22-08-2021 16:52:10.969 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction' and 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction'
+22-08-2021 16:52:10.970 [java] [DEBUG] Found Enter page in current project scope.
+22-08-2021 16:52:10.970 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable'
+22-08-2021 16:52:10.970 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+22-08-2021 16:52:10.970 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage' and 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage'
+22-08-2021 16:52:10.970 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+22-08-2021 16:52:10.971 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.implementation1' and 'com.thoughtworks.gauge.steps.StepImplementation.implementation1'
+22-08-2021 16:52:10.971 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+22-08-2021 16:52:10.971 [java] [DEBUG] Scanning packages for hooks
+22-08-2021 16:52:10.977 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-08-2021 16:52:10.977 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+22-08-2021 16:52:10.977 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+22-08-2021 16:52:10.978 [java] [DEBUG] 	Enter page : public void doAction()
+22-08-2021 16:52:10.978 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+22-08-2021 16:52:13.180 [Gauge] [DEBUG] Validation completed.
+22-08-2021 16:52:13.180 [Gauge] [DEBUG] Run started
+22-08-2021 16:52:13.181 [Gauge] [DEBUG] Starting Html Report plugin
+22-08-2021 16:52:13.189 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56174
+22-08-2021 16:52:13.192 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56174
+22-08-2021 16:52:13.193 [Gauge] [DEBUG] Initialising suite data store.
+22-08-2021 16:52:29.903 [java] [ERROR] Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23837
+22-08-2021 16:52:29.903 [java] [ERROR] Only local connections are allowed.
+22-08-2021 16:52:29.903 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-08-2021 16:52:29.903 [java] [ERROR] Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32825
+22-08-2021 16:52:29.903 [java] [ERROR] Only local connections are allowed.
+22-08-2021 16:52:29.903 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-08-2021 16:52:29.912 [java] [ERROR] ChromeDriver was started successfully.
+22-08-2021 16:52:29.912 [java] [ERROR] ChromeDriver was started successfully.
+22-08-2021 16:52:33.672 [java] [ERROR] Aug 22, 2021 4:52:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+22-08-2021 16:52:33.672 [java] [ERROR] INFO: Detected dialect: W3C
+22-08-2021 16:52:33.694 [java] [ERROR] Aug 22, 2021 4:52:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+22-08-2021 16:52:33.694 [java] [ERROR] INFO: Detected dialect: W3C
+22-08-2021 16:52:33.720 [Gauge] [INFO] # Getting Started with Gauge
+22-08-2021 16:52:33.740 [Gauge] [INFO] # Getting Started with Gauge
+22-08-2021 16:52:33.752 [Gauge] [INFO] ## Get Started
+22-08-2021 16:52:33.776 [Gauge] [DEBUG] * Open the Gauge homepage
+
+22-08-2021 16:52:33.782 [Gauge] [INFO] ## Get Started
+22-08-2021 16:52:33.813 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class com.thoughtworks.gauge.steps.StepImplementation.implementation1
+22-08-2021 16:52:33.818 [Gauge] [DEBUG] * Open the Gauge homepage
+
+22-08-2021 16:52:33.843 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class com.thoughtworks.gauge.steps.StepImplementation.implementation1
+22-08-2021 16:52:39.217 [Gauge] [ERROR] 
+Failed Step: Open the Gauge homepage
+22-08-2021 16:52:39.217 [Gauge] [ERROR] Specification: specs/example.spec:7
+22-08-2021 16:52:39.217 [Gauge] [ERROR] Error Message: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'W0GL5230.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/s8/w1rg3yc96j5...}, goog:chromeOptions: {debuggerAddress: localhost:56202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 492578751cbe0974106f3ed30f783718
+22-08-2021 16:52:39.217 [Gauge] [ERROR] Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+com.thoughtworks.gauge.steps.StepImplementation.implementation1(StepImplementation.java:29)
+22-08-2021 16:52:39.316 [Gauge] [ERROR] 
+Failed Step: Open the Gauge homepage
+22-08-2021 16:52:39.316 [Gauge] [ERROR] Specification: specs/example.spec:7
+22-08-2021 16:52:39.316 [Gauge] [ERROR] Error Message: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'W0GL5230.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/s8/w1rg3yc96j5...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c664f7da80122cb596266a6b7895475d
+22-08-2021 16:52:39.316 [Gauge] [ERROR] Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+com.thoughtworks.gauge.steps.StepImplementation.implementation1(StepImplementation.java:29)
+22-08-2021 16:52:39.479 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-08-2021 16:52:39.531 [html-report] [INFO] Successfully generated html-report to => /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/reports/html-report/index.html
+22-08-2021 16:52:39.531 [html-report] [DEBUG] Done generating HTML report using theme from /Users/victorpapuc/.gauge/plugins/html-report/4.1.2/themes/default
+22-08-2021 16:52:39.531 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-08-2021 16:52:39.539 [java] [DEBUG] Killing Java runner...
+22-08-2021 16:52:39.543 [java] [DEBUG] Stopping execution pool...
+22-08-2021 16:52:39.544 [java] [DEBUG] Shutting down grpc server...
+22-08-2021 16:52:39.587 [java] [DEBUG] Runner killed gracefully.
+22-08-2021 16:52:39.599 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-08-2021 16:52:39.607 [html-report] [INFO] Successfully generated html-report to => /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/reports/html-report/index.html
+22-08-2021 16:52:39.607 [html-report] [DEBUG] Done generating HTML report using theme from /Users/victorpapuc/.gauge/plugins/html-report/4.1.2/themes/default
+22-08-2021 16:52:39.607 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-08-2021 16:52:39.610 [java] [DEBUG] Killing Java runner...
+22-08-2021 16:52:39.612 [java] [DEBUG] Stopping execution pool...
+22-08-2021 16:52:39.612 [java] [DEBUG] Shutting down grpc server...
+22-08-2021 16:52:39.633 [java] [DEBUG] Runner killed gracefully.
+22-08-2021 16:52:40.147 [Gauge] [DEBUG] Runner with PID:69407 has exited
+22-08-2021 16:52:40.147 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:52:40.147 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:52:40.147 [Gauge] [INFO] 
+Total time taken: 30.407s
+22-08-2021 16:52:40.198 [Gauge] [DEBUG] Runner with PID:69430 has exited
+22-08-2021 16:52:40.198 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:52:40.198 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:52:40.198 [Gauge] [INFO] 
+Total time taken: 26.297s
+22-08-2021 16:53:56.478 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/.gauge/screenshots
+22-08-2021 16:53:56.481 [Gauge] [DEBUG] Plugin java is already installed.
+22-08-2021 16:53:56.481 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-08-2021 16:53:56.481 [Gauge] [DEBUG] Parsing started.
+22-08-2021 16:53:56.481 [Gauge] [DEBUG] Started concepts parsing.
+22-08-2021 16:53:56.482 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-08-2021 16:53:56.482 [Gauge] [DEBUG] Started specifications parsing.
+22-08-2021 16:53:56.483 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-08-2021 16:53:56.483 [Gauge] [DEBUG] Parsing completed.
+22-08-2021 16:53:56.524 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-08-2021 16:53:56.524 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/bin:/Users/victorpapuc/Library/Android/sdk/cmdline-tools/latest/bin:/Users/victorpapuc/Library/Android/sdk/build-tools/30.0.3:/Users/victorpapuc/Library/Android/sdk/platform-tools:/Users/victorpapuc/.gauge/plugins/screenshot/0.1.0
+22-08-2021 16:53:56.525 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_project_root: 
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_parallel_streams_count: 
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_reports_dir: reports
+22-08-2021 16:53:56.525 [java] [DEBUG] overwrite_reports: true
+22-08-2021 16:53:56.525 [java] [DEBUG] logs_directory: logs
+22-08-2021 16:53:56.525 [java] [DEBUG] enable_multithreading: false
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_specs_dir: specs
+22-08-2021 16:53:56.525 [java] [DEBUG] csv_delimiter: ,
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_java_home: 
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_custom_build_path: 
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_additional_libs: libs/*
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_jvm_args: 
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_custom_compile_dir: 
+22-08-2021 16:53:56.525 [java] [DEBUG] gauge_clear_state_level: scenario
+22-08-2021 16:53:56.525 [java] [DEBUG] ***** END *****
+22-08-2021 16:53:56.829 [Gauge] [DEBUG] Checking updates...
+22-08-2021 16:53:56.830 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:53:57.006 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:53:57.066 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:54:03.334 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/tools.jar:/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/test-classes:/Users/victorpapuc/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/victorpapuc/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/victorpapuc/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/victorpapuc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/victorpapuc/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/victorpapuc/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/victorpapuc/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/victorpapuc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victorpapuc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victorpapuc/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/victorpapuc/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/victorpapuc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/victorpapuc/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/victorpapuc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/victorpapuc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/victorpapuc/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/victorpapuc/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/victorpapuc/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/victorpapuc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victorpapuc/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/victorpapuc/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/victorpapuc/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/victorpapuc/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.0/webdrivermanager-3.7.0.jar:/Users/victorpapuc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/victorpapuc/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/victorpapuc/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/victorpapuc/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/victorpapuc/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/victorpapuc/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/victorpapuc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/victorpapuc/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/victorpapuc/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/victorpapuc/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/victorpapuc/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/victorpapuc/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/victorpapuc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/victorpapuc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar
+22-08-2021 16:54:03.340 [java] [DEBUG] found java executable in /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java
+22-08-2021 16:54:03.340 [java] [DEBUG] running - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-08-2021 16:54:03.340 [java] [DEBUG] stdout/stderr is logged to logs/69781-java.out
+22-08-2021 16:54:03.594 [java] [DEBUG] multithreading is set to false
+22-08-2021 16:54:04.218 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-08-2021 16:54:04.342 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-08-2021 16:54:04.342 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-08-2021 16:54:04.342 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-08-2021 16:54:04.375 [java] [ERROR] log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+22-08-2021 16:54:04.375 [java] [ERROR] log4j:WARN Please initialize the log4j system properly.
+22-08-2021 16:54:04.375 [java] [ERROR] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+22-08-2021 16:54:04.651 [java] [DEBUG] gauge-java took 1057milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-08-2021 16:54:04.652 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1057
+22-08-2021 16:54:04.652 [java] [DEBUG] starting gRPC server...
+22-08-2021 16:54:05.002 [java] [DEBUG] started gRPC server on port 56359
+22-08-2021 16:54:05.002 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56359
+22-08-2021 16:54:05.149 [Gauge] [DEBUG] Successfully made the connection with runner with port: 56359
+22-08-2021 16:54:05.149 [Gauge] [DEBUG] Validation started.
+22-08-2021 16:54:07.916 [java] [DEBUG] Scanning packages for steps
+22-08-2021 16:54:07.960 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction' and 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction'
+22-08-2021 16:54:07.961 [java] [DEBUG] Found Enter page in current project scope.
+22-08-2021 16:54:07.962 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable'
+22-08-2021 16:54:07.962 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+22-08-2021 16:54:07.962 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage' and 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage'
+22-08-2021 16:54:07.962 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+22-08-2021 16:54:07.962 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.implementation1' and 'com.thoughtworks.gauge.steps.StepImplementation.implementation1'
+22-08-2021 16:54:07.962 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+22-08-2021 16:54:07.963 [java] [DEBUG] Scanning packages for hooks
+22-08-2021 16:54:07.968 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-08-2021 16:54:07.969 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+22-08-2021 16:54:07.969 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+22-08-2021 16:54:07.969 [java] [DEBUG] 	Enter page : public void doAction()
+22-08-2021 16:54:07.969 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+22-08-2021 16:54:10.267 [Gauge] [DEBUG] Validation completed.
+22-08-2021 16:54:10.268 [Gauge] [DEBUG] Run started
+22-08-2021 16:54:10.268 [Gauge] [DEBUG] Starting Html Report plugin
+22-08-2021 16:54:10.300 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56375
+22-08-2021 16:54:10.301 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56375
+22-08-2021 16:54:10.301 [Gauge] [DEBUG] Initialising suite data store.
+22-08-2021 16:54:11.152 [java] [ERROR] Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 42787
+22-08-2021 16:54:11.152 [java] [ERROR] Only local connections are allowed.
+22-08-2021 16:54:11.152 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-08-2021 16:54:11.183 [java] [ERROR] ChromeDriver was started successfully.
+22-08-2021 16:54:14.681 [java] [ERROR] Aug 22, 2021 4:54:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+22-08-2021 16:54:14.681 [java] [ERROR] INFO: Detected dialect: W3C
+22-08-2021 16:54:14.825 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class com.thoughtworks.gauge.steps.StepImplementation.implementation1
+22-08-2021 16:54:18.148 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-08-2021 16:54:18.155 [html-report] [INFO] Successfully generated html-report to => /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/reports/html-report/index.html
+22-08-2021 16:54:18.155 [html-report] [DEBUG] Done generating HTML report using theme from /Users/victorpapuc/.gauge/plugins/html-report/4.1.2/themes/default
+22-08-2021 16:54:18.155 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-08-2021 16:54:18.160 [java] [DEBUG] Killing Java runner...
+22-08-2021 16:54:18.165 [java] [DEBUG] Stopping execution pool...
+22-08-2021 16:54:18.165 [java] [DEBUG] Shutting down grpc server...
+22-08-2021 16:54:18.185 [java] [DEBUG] Runner killed gracefully.
+22-08-2021 16:54:18.695 [Gauge] [DEBUG] Runner with PID:69781 has exited
+22-08-2021 16:54:18.695 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:54:18.695 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:54:18.695 [Gauge] [INFO] 
+Total time taken: 7.879s
+22-08-2021 16:57:10.236 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/.gauge/screenshots
+22-08-2021 16:57:10.236 [Gauge] [DEBUG] Plugin java is already installed.
+22-08-2021 16:57:10.236 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-08-2021 16:57:10.236 [Gauge] [DEBUG] Parsing started.
+22-08-2021 16:57:10.236 [Gauge] [DEBUG] Started concepts parsing.
+22-08-2021 16:57:10.238 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-08-2021 16:57:10.238 [Gauge] [DEBUG] Started specifications parsing.
+22-08-2021 16:57:10.238 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-08-2021 16:57:10.238 [Gauge] [DEBUG] Parsing completed.
+22-08-2021 16:57:10.260 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-08-2021 16:57:10.260 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/bin:/Users/victorpapuc/Library/Android/sdk/cmdline-tools/latest/bin:/Users/victorpapuc/Library/Android/sdk/build-tools/30.0.3:/Users/victorpapuc/Library/Android/sdk/platform-tools:/Users/victorpapuc/.gauge/plugins/screenshot/0.1.0
+22-08-2021 16:57:10.260 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_project_root: 
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_parallel_streams_count: 
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_reports_dir: reports
+22-08-2021 16:57:10.260 [java] [DEBUG] overwrite_reports: true
+22-08-2021 16:57:10.260 [java] [DEBUG] logs_directory: logs
+22-08-2021 16:57:10.260 [java] [DEBUG] enable_multithreading: false
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_specs_dir: specs
+22-08-2021 16:57:10.260 [java] [DEBUG] csv_delimiter: ,
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_java_home: 
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_custom_build_path: 
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_additional_libs: libs/*
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_jvm_args: 
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_custom_compile_dir: 
+22-08-2021 16:57:10.260 [java] [DEBUG] gauge_clear_state_level: scenario
+22-08-2021 16:57:10.260 [java] [DEBUG] ***** END *****
+22-08-2021 16:57:10.569 [Gauge] [DEBUG] Checking updates...
+22-08-2021 16:57:10.569 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:57:10.753 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:57:10.809 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 16:57:15.787 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/tools.jar:/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/test-classes:/Users/victorpapuc/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/victorpapuc/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/victorpapuc/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/victorpapuc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/victorpapuc/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/victorpapuc/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/victorpapuc/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/victorpapuc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victorpapuc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victorpapuc/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/victorpapuc/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/victorpapuc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/victorpapuc/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/victorpapuc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/victorpapuc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/victorpapuc/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/victorpapuc/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/victorpapuc/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/victorpapuc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victorpapuc/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/victorpapuc/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/victorpapuc/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/victorpapuc/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.0/webdrivermanager-3.7.0.jar:/Users/victorpapuc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/victorpapuc/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/victorpapuc/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/victorpapuc/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/victorpapuc/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/victorpapuc/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/victorpapuc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/victorpapuc/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/victorpapuc/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/victorpapuc/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/victorpapuc/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/victorpapuc/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/victorpapuc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/victorpapuc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar
+22-08-2021 16:57:15.798 [java] [DEBUG] found java executable in /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java
+22-08-2021 16:57:15.798 [java] [DEBUG] running - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-08-2021 16:57:15.798 [java] [DEBUG] stdout/stderr is logged to logs/69904-java.out
+22-08-2021 16:57:16.038 [java] [DEBUG] multithreading is set to false
+22-08-2021 16:57:16.597 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-08-2021 16:57:16.713 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-08-2021 16:57:16.713 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-08-2021 16:57:16.713 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-08-2021 16:57:16.745 [java] [ERROR] log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+22-08-2021 16:57:16.745 [java] [ERROR] log4j:WARN Please initialize the log4j system properly.
+22-08-2021 16:57:16.745 [java] [ERROR] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+22-08-2021 16:57:17.008 [java] [DEBUG] gauge-java took 969milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-08-2021 16:57:17.009 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 969
+22-08-2021 16:57:17.010 [java] [DEBUG] starting gRPC server...
+22-08-2021 16:57:17.398 [java] [DEBUG] started gRPC server on port 56433
+22-08-2021 16:57:17.398 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56433
+22-08-2021 16:57:17.532 [Gauge] [DEBUG] Successfully made the connection with runner with port: 56433
+22-08-2021 16:57:17.532 [Gauge] [DEBUG] Validation started.
+22-08-2021 16:57:20.307 [java] [DEBUG] Scanning packages for steps
+22-08-2021 16:57:20.344 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction' and 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction'
+22-08-2021 16:57:20.344 [java] [DEBUG] Found Enter page in current project scope.
+22-08-2021 16:57:20.345 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable'
+22-08-2021 16:57:20.345 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+22-08-2021 16:57:20.346 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage' and 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage'
+22-08-2021 16:57:20.346 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+22-08-2021 16:57:20.346 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.implementation1' and 'com.thoughtworks.gauge.steps.StepImplementation.implementation1'
+22-08-2021 16:57:20.346 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+22-08-2021 16:57:20.346 [java] [DEBUG] Scanning packages for hooks
+22-08-2021 16:57:20.352 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-08-2021 16:57:20.352 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+22-08-2021 16:57:20.352 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+22-08-2021 16:57:20.352 [java] [DEBUG] 	Enter page : public void doAction()
+22-08-2021 16:57:20.352 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+22-08-2021 16:57:22.420 [Gauge] [DEBUG] Validation completed.
+22-08-2021 16:57:22.420 [Gauge] [DEBUG] Run started
+22-08-2021 16:57:22.420 [Gauge] [DEBUG] Starting Html Report plugin
+22-08-2021 16:57:22.477 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56438
+22-08-2021 16:57:22.478 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56438
+22-08-2021 16:57:22.478 [Gauge] [DEBUG] Initialising suite data store.
+22-08-2021 16:57:23.252 [java] [ERROR] Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 8775
+22-08-2021 16:57:23.252 [java] [ERROR] Only local connections are allowed.
+22-08-2021 16:57:23.252 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-08-2021 16:57:23.252 [java] [ERROR] ChromeDriver was started successfully.
+22-08-2021 16:57:26.428 [java] [ERROR] Aug 22, 2021 4:57:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+22-08-2021 16:57:26.429 [java] [ERROR] INFO: Detected dialect: W3C
+22-08-2021 16:57:26.529 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class com.thoughtworks.gauge.steps.StepImplementation.implementation1
+22-08-2021 16:57:33.268 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-08-2021 16:57:33.275 [html-report] [INFO] Successfully generated html-report to => /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/reports/html-report/index.html
+22-08-2021 16:57:33.275 [html-report] [DEBUG] Done generating HTML report using theme from /Users/victorpapuc/.gauge/plugins/html-report/4.1.2/themes/default
+22-08-2021 16:57:33.275 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-08-2021 16:57:33.277 [java] [DEBUG] Killing Java runner...
+22-08-2021 16:57:33.278 [java] [DEBUG] Stopping execution pool...
+22-08-2021 16:57:33.278 [java] [DEBUG] Shutting down grpc server...
+22-08-2021 16:57:33.289 [java] [DEBUG] Runner killed gracefully.
+22-08-2021 16:57:33.806 [Gauge] [DEBUG] Runner with PID:69904 has exited
+22-08-2021 16:57:33.807 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:57:33.807 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 16:57:33.807 [Gauge] [INFO] 
+Total time taken: 10.847s
+22-08-2021 19:27:19.568 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/.gauge/screenshots
+22-08-2021 19:27:19.569 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-08-2021 19:27:19.569 [Gauge] [DEBUG] Plugin java is already installed.
+22-08-2021 19:27:19.569 [Gauge] [DEBUG] Parsing started.
+22-08-2021 19:27:19.569 [Gauge] [DEBUG] Started concepts parsing.
+22-08-2021 19:27:19.571 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-08-2021 19:27:19.571 [Gauge] [DEBUG] Started specifications parsing.
+22-08-2021 19:27:19.572 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-08-2021 19:27:19.572 [Gauge] [DEBUG] Parsing completed.
+22-08-2021 19:27:19.592 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-08-2021 19:27:19.592 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/bin:/Users/victorpapuc/Library/Android/sdk/cmdline-tools/latest/bin:/Users/victorpapuc/Library/Android/sdk/build-tools/30.0.3:/Users/victorpapuc/Library/Android/sdk/platform-tools:/Users/victorpapuc/.gauge/plugins/screenshot/0.1.0
+22-08-2021 19:27:19.592 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_project_root: 
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_parallel_streams_count: 
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_reports_dir: reports
+22-08-2021 19:27:19.592 [java] [DEBUG] overwrite_reports: true
+22-08-2021 19:27:19.592 [java] [DEBUG] logs_directory: logs
+22-08-2021 19:27:19.592 [java] [DEBUG] enable_multithreading: false
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_specs_dir: specs
+22-08-2021 19:27:19.592 [java] [DEBUG] csv_delimiter: ,
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_java_home: 
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_custom_build_path: 
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_additional_libs: libs/*
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_jvm_args: 
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_custom_compile_dir: 
+22-08-2021 19:27:19.592 [java] [DEBUG] gauge_clear_state_level: scenario
+22-08-2021 19:27:19.592 [java] [DEBUG] ***** END *****
+22-08-2021 19:27:20.171 [Gauge] [DEBUG] Checking updates...
+22-08-2021 19:27:20.171 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:27:20.362 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:27:20.427 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:27:24.895 [java] [DEBUG] classpath set to /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/test-classes:/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/classes:/Users/victorpapuc/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/victorpapuc/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/victorpapuc/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/victorpapuc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/victorpapuc/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/victorpapuc/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/victorpapuc/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/victorpapuc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victorpapuc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victorpapuc/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/victorpapuc/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/victorpapuc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/victorpapuc/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/victorpapuc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/victorpapuc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/victorpapuc/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/victorpapuc/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/victorpapuc/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/victorpapuc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victorpapuc/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/victorpapuc/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/victorpapuc/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/victorpapuc/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.0/webdrivermanager-3.7.0.jar:/Users/victorpapuc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/victorpapuc/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/victorpapuc/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/victorpapuc/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/victorpapuc/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/victorpapuc/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/victorpapuc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/victorpapuc/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/victorpapuc/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/victorpapuc/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/victorpapuc/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/victorpapuc/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/victorpapuc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/victorpapuc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar
+22-08-2021 19:27:24.905 [java] [DEBUG] found java executable in /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java
+22-08-2021 19:27:24.905 [java] [DEBUG] running - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-08-2021 19:27:24.905 [java] [DEBUG] stdout/stderr is logged to logs/71054-java.out
+22-08-2021 19:27:25.120 [java] [DEBUG] multithreading is set to false
+22-08-2021 19:27:25.691 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-08-2021 19:27:25.816 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-08-2021 19:27:25.816 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-08-2021 19:27:25.816 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-08-2021 19:27:25.837 [java] [ERROR] log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+22-08-2021 19:27:25.837 [java] [ERROR] log4j:WARN Please initialize the log4j system properly.
+22-08-2021 19:27:25.837 [java] [ERROR] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+22-08-2021 19:27:26.071 [java] [DEBUG] gauge-java took 951milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-08-2021 19:27:26.071 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 951
+22-08-2021 19:27:26.071 [java] [DEBUG] starting gRPC server...
+22-08-2021 19:27:26.503 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57389
+22-08-2021 19:27:26.636 [Gauge] [DEBUG] Successfully made the connection with runner with port: 57389
+22-08-2021 19:27:26.636 [Gauge] [DEBUG] Validation started.
+22-08-2021 19:27:27.917 [java] [DEBUG] Scanning packages for steps
+22-08-2021 19:27:27.958 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction' and 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction'
+22-08-2021 19:27:27.958 [java] [DEBUG] Found Enter page in current project scope.
+22-08-2021 19:27:27.960 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable'
+22-08-2021 19:27:27.960 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+22-08-2021 19:27:27.960 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage' and 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage'
+22-08-2021 19:27:27.960 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+22-08-2021 19:27:27.960 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.implementation1' and 'com.thoughtworks.gauge.steps.StepImplementation.implementation1'
+22-08-2021 19:27:27.960 [java] [DEBUG] Found Open the DemoQa homepage in current project scope.
+22-08-2021 19:27:27.960 [java] [DEBUG] Scanning packages for hooks
+22-08-2021 19:27:27.969 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-08-2021 19:27:27.969 [java] [DEBUG] 	Open the DemoQa homepage : public void implementation1()
+22-08-2021 19:27:27.969 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+22-08-2021 19:27:27.969 [java] [DEBUG] 	Enter page : public void doAction()
+22-08-2021 19:27:27.969 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+22-08-2021 19:27:29.309 [Gauge] [DEBUG] Validation completed.
+22-08-2021 19:27:29.310 [Gauge] [DEBUG] Run started
+22-08-2021 19:27:29.310 [Gauge] [DEBUG] Starting Html Report plugin
+22-08-2021 19:27:29.340 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57394
+22-08-2021 19:27:29.341 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57394
+22-08-2021 19:27:29.341 [Gauge] [DEBUG] Initialising suite data store.
+22-08-2021 19:27:30.180 [java] [ERROR] Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 41416
+22-08-2021 19:27:30.180 [java] [ERROR] Only local connections are allowed.
+22-08-2021 19:27:30.180 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-08-2021 19:27:30.213 [java] [ERROR] ChromeDriver was started successfully.
+22-08-2021 19:27:35.217 [java] [ERROR] Aug 22, 2021 7:27:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+22-08-2021 19:27:35.217 [java] [ERROR] INFO: Detected dialect: W3C
+22-08-2021 19:27:35.281 [Gauge] [INFO] # Getting Started with Gauge
+22-08-2021 19:27:35.309 [Gauge] [INFO] ## Get Started
+22-08-2021 19:27:35.318 [Gauge] [DEBUG] * Open the DemoQa homepage
+
+22-08-2021 19:27:35.354 [java] [DEBUG] Executing 'Open the DemoQa homepage' using 'class com.thoughtworks.gauge.steps.StepImplementation.implementation1
+22-08-2021 19:27:44.064 [Gauge] [ERROR] Failed Step: Open the DemoQa homepage
+22-08-2021 19:27:44.064 [Gauge] [ERROR] Error Message: java.lang.AssertionError: 
+Expecting:
+ <"ToolsQA">
+to contain:
+ <"Gauge"> 
+22-08-2021 19:27:44.064 [Gauge] [ERROR] Specification: specs/example.spec:7
+22-08-2021 19:27:44.064 [Gauge] [ERROR] Stacktrace: 
+com.thoughtworks.gauge.steps.StepImplementation.implementation1(StepImplementation.java:30)
+22-08-2021 19:27:44.230 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-08-2021 19:27:44.237 [html-report] [INFO] Successfully generated html-report to => /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/reports/html-report/index.html
+22-08-2021 19:27:44.237 [html-report] [DEBUG] Done generating HTML report using theme from /Users/victorpapuc/.gauge/plugins/html-report/4.1.2/themes/default
+22-08-2021 19:27:44.237 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-08-2021 19:27:44.241 [java] [DEBUG] Killing Java runner...
+22-08-2021 19:27:44.245 [java] [DEBUG] Stopping execution pool...
+22-08-2021 19:27:44.245 [java] [DEBUG] Shutting down grpc server...
+22-08-2021 19:27:44.261 [java] [DEBUG] Runner killed gracefully.
+22-08-2021 19:27:44.778 [Gauge] [DEBUG] Runner with PID:71054 has exited
+22-08-2021 19:27:44.779 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 19:27:44.779 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 19:27:44.779 [Gauge] [INFO] 
+Total time taken: 14.918s
+22-08-2021 19:28:11.142 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/.gauge/screenshots
+22-08-2021 19:28:11.142 [Gauge] [DEBUG] Plugin java is already installed.
+22-08-2021 19:28:11.143 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-08-2021 19:28:11.143 [Gauge] [DEBUG] Parsing started.
+22-08-2021 19:28:11.143 [Gauge] [DEBUG] Started concepts parsing.
+22-08-2021 19:28:11.144 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-08-2021 19:28:11.144 [Gauge] [DEBUG] Started specifications parsing.
+22-08-2021 19:28:11.144 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-08-2021 19:28:11.144 [Gauge] [DEBUG] Parsing completed.
+22-08-2021 19:28:11.165 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-08-2021 19:28:11.165 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/bin:/Users/victorpapuc/Library/Android/sdk/cmdline-tools/latest/bin:/Users/victorpapuc/Library/Android/sdk/build-tools/30.0.3:/Users/victorpapuc/Library/Android/sdk/platform-tools:/Users/victorpapuc/.gauge/plugins/screenshot/0.1.0
+22-08-2021 19:28:11.165 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_project_root: 
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_parallel_streams_count: 
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_reports_dir: reports
+22-08-2021 19:28:11.165 [java] [DEBUG] overwrite_reports: true
+22-08-2021 19:28:11.165 [java] [DEBUG] logs_directory: logs
+22-08-2021 19:28:11.165 [java] [DEBUG] enable_multithreading: false
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_specs_dir: specs
+22-08-2021 19:28:11.165 [java] [DEBUG] csv_delimiter: ,
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_java_home: 
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_custom_build_path: 
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_additional_libs: libs/*
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_jvm_args: 
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_custom_compile_dir: 
+22-08-2021 19:28:11.165 [java] [DEBUG] gauge_clear_state_level: scenario
+22-08-2021 19:28:11.165 [java] [DEBUG] ***** END *****
+22-08-2021 19:28:11.791 [Gauge] [DEBUG] Checking updates...
+22-08-2021 19:28:11.792 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:28:11.969 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:28:12.032 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:28:16.258 [java] [DEBUG] classpath set to /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/test-classes:/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/classes:/Users/victorpapuc/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/victorpapuc/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/victorpapuc/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/victorpapuc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/victorpapuc/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/victorpapuc/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/victorpapuc/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/victorpapuc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victorpapuc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victorpapuc/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/victorpapuc/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/victorpapuc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/victorpapuc/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/victorpapuc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/victorpapuc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/victorpapuc/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/victorpapuc/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/victorpapuc/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/victorpapuc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victorpapuc/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/victorpapuc/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/victorpapuc/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/victorpapuc/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.0/webdrivermanager-3.7.0.jar:/Users/victorpapuc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/victorpapuc/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/victorpapuc/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/victorpapuc/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/victorpapuc/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/victorpapuc/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/victorpapuc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/victorpapuc/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/victorpapuc/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/victorpapuc/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/victorpapuc/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/victorpapuc/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/victorpapuc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/victorpapuc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar
+22-08-2021 19:28:16.265 [java] [DEBUG] found java executable in /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java
+22-08-2021 19:28:16.265 [java] [DEBUG] running - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-08-2021 19:28:16.265 [java] [DEBUG] stdout/stderr is logged to logs/71151-java.out
+22-08-2021 19:28:16.487 [java] [DEBUG] multithreading is set to false
+22-08-2021 19:28:17.072 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-08-2021 19:28:17.211 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-08-2021 19:28:17.211 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-08-2021 19:28:17.211 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-08-2021 19:28:17.238 [java] [ERROR] log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+22-08-2021 19:28:17.238 [java] [ERROR] log4j:WARN Please initialize the log4j system properly.
+22-08-2021 19:28:17.238 [java] [ERROR] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+22-08-2021 19:28:17.476 [java] [DEBUG] gauge-java took 988milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-08-2021 19:28:17.476 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 988
+22-08-2021 19:28:17.476 [java] [DEBUG] starting gRPC server...
+22-08-2021 19:28:17.712 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57454
+22-08-2021 19:28:17.897 [Gauge] [DEBUG] Successfully made the connection with runner with port: 57454
+22-08-2021 19:28:17.898 [Gauge] [DEBUG] Validation started.
+22-08-2021 19:28:19.279 [java] [DEBUG] Scanning packages for steps
+22-08-2021 19:28:19.316 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction' and 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction'
+22-08-2021 19:28:19.316 [java] [DEBUG] Found Enter page in current project scope.
+22-08-2021 19:28:19.317 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable'
+22-08-2021 19:28:19.318 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+22-08-2021 19:28:19.318 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage' and 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage'
+22-08-2021 19:28:19.318 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+22-08-2021 19:28:19.318 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.implementation1' and 'com.thoughtworks.gauge.steps.StepImplementation.implementation1'
+22-08-2021 19:28:19.318 [java] [DEBUG] Found Open the DemoQa homepage in current project scope.
+22-08-2021 19:28:19.318 [java] [DEBUG] Scanning packages for hooks
+22-08-2021 19:28:19.328 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-08-2021 19:28:19.328 [java] [DEBUG] 	Open the DemoQa homepage : public void implementation1()
+22-08-2021 19:28:19.329 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+22-08-2021 19:28:19.329 [java] [DEBUG] 	Enter page : public void doAction()
+22-08-2021 19:28:19.329 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+22-08-2021 19:28:20.609 [Gauge] [DEBUG] Validation completed.
+22-08-2021 19:28:20.609 [Gauge] [DEBUG] Run started
+22-08-2021 19:28:20.610 [Gauge] [DEBUG] Starting Html Report plugin
+22-08-2021 19:28:20.646 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57460
+22-08-2021 19:28:20.647 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57460
+22-08-2021 19:28:20.647 [Gauge] [DEBUG] Initialising suite data store.
+22-08-2021 19:28:21.364 [java] [ERROR] Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 42841
+22-08-2021 19:28:21.364 [java] [ERROR] Only local connections are allowed.
+22-08-2021 19:28:21.364 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-08-2021 19:28:21.389 [java] [ERROR] ChromeDriver was started successfully.
+22-08-2021 19:28:23.814 [java] [ERROR] Aug 22, 2021 7:28:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+22-08-2021 19:28:23.814 [java] [ERROR] INFO: Detected dialect: W3C
+22-08-2021 19:28:23.842 [Gauge] [INFO] # Getting Started with Gauge
+22-08-2021 19:28:23.869 [Gauge] [INFO] ## Get Started
+22-08-2021 19:28:23.883 [Gauge] [DEBUG] * Open the DemoQa homepage
+
+22-08-2021 19:28:23.903 [java] [DEBUG] Executing 'Open the DemoQa homepage' using 'class com.thoughtworks.gauge.steps.StepImplementation.implementation1
+22-08-2021 19:28:27.633 [Gauge] [ERROR] Failed Step: Open the DemoQa homepage
+22-08-2021 19:28:27.633 [Gauge] [ERROR] Error Message: java.lang.AssertionError: 
+Expecting:
+ <"ToolsQA">
+to contain:
+ <"Gauge"> 
+22-08-2021 19:28:27.633 [Gauge] [ERROR] Specification: specs/example.spec:7
+22-08-2021 19:28:27.633 [Gauge] [ERROR] Stacktrace: 
+com.thoughtworks.gauge.steps.StepImplementation.implementation1(StepImplementation.java:30)
+22-08-2021 19:28:27.771 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-08-2021 19:28:27.777 [html-report] [INFO] Successfully generated html-report to => /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/reports/html-report/index.html
+22-08-2021 19:28:27.777 [html-report] [DEBUG] Done generating HTML report using theme from /Users/victorpapuc/.gauge/plugins/html-report/4.1.2/themes/default
+22-08-2021 19:28:27.777 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-08-2021 19:28:27.783 [java] [DEBUG] Killing Java runner...
+22-08-2021 19:28:27.789 [java] [DEBUG] Stopping execution pool...
+22-08-2021 19:28:27.789 [java] [DEBUG] Shutting down grpc server...
+22-08-2021 19:28:27.803 [java] [DEBUG] Runner killed gracefully.
+22-08-2021 19:28:28.322 [Gauge] [DEBUG] Runner with PID:71151 has exited
+22-08-2021 19:28:28.322 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 19:28:28.322 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 19:28:28.322 [Gauge] [INFO] 
+Total time taken: 7.161s
+22-08-2021 19:29:29.904 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/.gauge/screenshots
+22-08-2021 19:29:29.905 [Gauge] [DEBUG] Plugin java is already installed.
+22-08-2021 19:29:29.905 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-08-2021 19:29:29.905 [Gauge] [DEBUG] Parsing started.
+22-08-2021 19:29:29.905 [Gauge] [DEBUG] Started concepts parsing.
+22-08-2021 19:29:29.907 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-08-2021 19:29:29.907 [Gauge] [DEBUG] Started specifications parsing.
+22-08-2021 19:29:29.907 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-08-2021 19:29:29.907 [Gauge] [DEBUG] Parsing completed.
+22-08-2021 19:29:29.926 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-08-2021 19:29:29.926 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.rbenv/bin:/Users/victorpapuc/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/bin:/Users/victorpapuc/Library/Android/sdk/cmdline-tools/latest/bin:/Users/victorpapuc/Library/Android/sdk/build-tools/30.0.3:/Users/victorpapuc/Library/Android/sdk/platform-tools:/Users/victorpapuc/.gauge/plugins/screenshot/0.1.0
+22-08-2021 19:29:29.926 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_project_root: 
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_parallel_streams_count: 
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_reports_dir: reports
+22-08-2021 19:29:29.926 [java] [DEBUG] overwrite_reports: true
+22-08-2021 19:29:29.926 [java] [DEBUG] logs_directory: logs
+22-08-2021 19:29:29.926 [java] [DEBUG] enable_multithreading: false
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_specs_dir: specs
+22-08-2021 19:29:29.926 [java] [DEBUG] csv_delimiter: ,
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_java_home: 
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_custom_build_path: 
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_additional_libs: libs/*
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_jvm_args: 
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_custom_compile_dir: 
+22-08-2021 19:29:29.926 [java] [DEBUG] gauge_clear_state_level: scenario
+22-08-2021 19:29:29.926 [java] [DEBUG] ***** END *****
+22-08-2021 19:29:30.227 [Gauge] [DEBUG] Checking updates...
+22-08-2021 19:29:30.227 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:29:30.419 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:29:30.481 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+22-08-2021 19:29:35.084 [java] [DEBUG] classpath set to /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/test-classes:/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/target/classes:/Users/victorpapuc/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/victorpapuc/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/victorpapuc/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/victorpapuc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/victorpapuc/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/victorpapuc/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/victorpapuc/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/victorpapuc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victorpapuc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victorpapuc/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/victorpapuc/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/victorpapuc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/victorpapuc/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/victorpapuc/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/victorpapuc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/victorpapuc/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/victorpapuc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/victorpapuc/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/victorpapuc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/victorpapuc/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/victorpapuc/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/victorpapuc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victorpapuc/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/victorpapuc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/victorpapuc/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/victorpapuc/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/victorpapuc/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.0/webdrivermanager-3.7.0.jar:/Users/victorpapuc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/victorpapuc/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/victorpapuc/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/victorpapuc/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/victorpapuc/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/victorpapuc/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/victorpapuc/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/victorpapuc/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/victorpapuc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/victorpapuc/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/victorpapuc/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/victorpapuc/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/victorpapuc/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/victorpapuc/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/victorpapuc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/victorpapuc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/victorpapuc/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar
+22-08-2021 19:29:35.090 [java] [DEBUG] found java executable in /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java
+22-08-2021 19:29:35.090 [java] [DEBUG] running - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-08-2021 19:29:35.090 [java] [DEBUG] stdout/stderr is logged to logs/71243-java.out
+22-08-2021 19:29:35.310 [java] [DEBUG] multithreading is set to false
+22-08-2021 19:29:35.882 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-08-2021 19:29:36.018 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-08-2021 19:29:36.018 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-08-2021 19:29:36.018 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-08-2021 19:29:36.043 [java] [ERROR] log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+22-08-2021 19:29:36.043 [java] [ERROR] log4j:WARN Please initialize the log4j system properly.
+22-08-2021 19:29:36.043 [java] [ERROR] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+22-08-2021 19:29:36.270 [java] [DEBUG] gauge-java took 960milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-08-2021 19:29:36.270 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 960
+22-08-2021 19:29:36.271 [java] [DEBUG] starting gRPC server...
+22-08-2021 19:29:36.677 [java] [DEBUG] started gRPC server on port 57523
+22-08-2021 19:29:36.677 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57523
+22-08-2021 19:29:36.804 [Gauge] [DEBUG] Successfully made the connection with runner with port: 57523
+22-08-2021 19:29:36.804 [Gauge] [DEBUG] Validation started.
+22-08-2021 19:29:38.068 [java] [DEBUG] Scanning packages for steps
+22-08-2021 19:29:38.101 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction' and 'com.thoughtworks.gauge.steps.MainPageObjectStep.doAction'
+22-08-2021 19:29:38.101 [java] [DEBUG] Found Enter page in current project scope.
+22-08-2021 19:29:38.103 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'com.thoughtworks.gauge.steps.StepImplementation.ensureInstallationInstructionsAreAvailable'
+22-08-2021 19:29:38.103 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+22-08-2021 19:29:38.103 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage' and 'com.thoughtworks.gauge.steps.StepImplementation.gotoGetStartedPage'
+22-08-2021 19:29:38.103 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+22-08-2021 19:29:38.104 [java] [DEBUG] Comparing 'com.thoughtworks.gauge.steps.StepImplementation.implementation1' and 'com.thoughtworks.gauge.steps.StepImplementation.implementation1'
+22-08-2021 19:29:38.104 [java] [DEBUG] Found Open the DemoQa homepage in current project scope.
+22-08-2021 19:29:38.104 [java] [DEBUG] Scanning packages for hooks
+22-08-2021 19:29:38.115 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-08-2021 19:29:38.115 [java] [DEBUG] 	Open the DemoQa homepage : public void implementation1()
+22-08-2021 19:29:38.116 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+22-08-2021 19:29:38.116 [java] [DEBUG] 	Enter page : public void doAction()
+22-08-2021 19:29:38.116 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+22-08-2021 19:29:39.341 [Gauge] [DEBUG] Validation completed.
+22-08-2021 19:29:39.341 [Gauge] [DEBUG] Run started
+22-08-2021 19:29:39.341 [Gauge] [DEBUG] Starting Html Report plugin
+22-08-2021 19:29:39.374 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57528
+22-08-2021 19:29:39.375 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57528
+22-08-2021 19:29:39.375 [Gauge] [DEBUG] Initialising suite data store.
+22-08-2021 19:29:40.081 [java] [ERROR] Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 31792
+22-08-2021 19:29:40.081 [java] [ERROR] Only local connections are allowed.
+22-08-2021 19:29:40.081 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-08-2021 19:29:40.107 [java] [ERROR] ChromeDriver was started successfully.
+22-08-2021 19:29:42.771 [java] [ERROR] Aug 22, 2021 7:29:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+22-08-2021 19:29:42.771 [java] [ERROR] INFO: Detected dialect: W3C
+22-08-2021 19:29:42.806 [Gauge] [INFO] # Getting Started with Gauge
+22-08-2021 19:29:42.823 [Gauge] [INFO] ## Get Started
+22-08-2021 19:29:42.835 [Gauge] [DEBUG] * Open the DemoQa homepage
+
+22-08-2021 19:29:42.843 [java] [DEBUG] Executing 'Open the DemoQa homepage' using 'class com.thoughtworks.gauge.steps.StepImplementation.implementation1
+22-08-2021 19:29:46.312 [Gauge] [ERROR] Failed Step: Open the DemoQa homepage
+22-08-2021 19:29:46.312 [Gauge] [ERROR] Error Message: java.lang.AssertionError: 
+Expecting:
+ <"ToolsQA">
+to contain:
+ <"Gauge"> 
+22-08-2021 19:29:46.313 [Gauge] [ERROR] Specification: specs/example.spec:7
+22-08-2021 19:29:46.313 [Gauge] [ERROR] Stacktrace: 
+com.thoughtworks.gauge.steps.StepImplementation.implementation1(StepImplementation.java:30)
+22-08-2021 19:29:46.478 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-08-2021 19:29:46.485 [html-report] [INFO] Successfully generated html-report to => /Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/reports/html-report/index.html
+22-08-2021 19:29:46.485 [html-report] [DEBUG] Done generating HTML report using theme from /Users/victorpapuc/.gauge/plugins/html-report/4.1.2/themes/default
+22-08-2021 19:29:46.485 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-08-2021 19:29:46.488 [java] [DEBUG] Killing Java runner...
+22-08-2021 19:29:46.491 [java] [DEBUG] Stopping execution pool...
+22-08-2021 19:29:46.492 [java] [DEBUG] Shutting down grpc server...
+22-08-2021 19:29:46.506 [java] [DEBUG] Runner killed gracefully.
+22-08-2021 19:29:47.021 [Gauge] [DEBUG] Runner with PID:71243 has exited
+22-08-2021 19:29:47.021 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 19:29:47.021 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-08-2021 19:29:47.021 [Gauge] [INFO] 
+Total time taken: 7.135s

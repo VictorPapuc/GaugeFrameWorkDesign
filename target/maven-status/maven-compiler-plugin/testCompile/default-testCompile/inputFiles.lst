@@ -1,3 +1,14 @@
-/Users/victor.papuc/IdeaProjects/testselenium/src/test/java/com/thoughtworks/gauge/maven/StepImplementation.java
-/Users/victor.papuc/IdeaProjects/testselenium/src/test/java/driver/Driver.java
-/Users/victor.papuc/IdeaProjects/testselenium/src/test/java/driver/DriverFactory.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/driver/ImplGrid.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/teststuff/Home_PG_POF.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/teststuff/LogIn_PG_POF.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/com/thoughtworks/gauge/action/pages/MainPageObjectAction.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/driver/Driver.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/com/thoughtworks/gauge/steps/MainPageObjectStep.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/com/thoughtworks/gauge/steps/StepImplementation.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/driver/PageFactoryInitialization.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/com/thoughtworks/gauge/action/pages/MainPage.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/com/thoughtworks/gauge/configuration/actions/MainPageConfiguration.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/com/thoughtworks/gauge/ModelOfPageObjectFindby.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/driver/PageFactoryMethod.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/teststuff/TestCase_POF.java
+/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/src/test/java/driver/DriverFactory.java

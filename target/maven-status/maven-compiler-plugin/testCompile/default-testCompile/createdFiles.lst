@@ -1,3 +1,14 @@
-com/thoughtworks/gauge/maven/StepImplementation.class
+driver/ImplGrid.class
+com/thoughtworks/gauge/steps/MainPageObjectStep.class
+teststuff/LogIn_PG_POF.class
+com/thoughtworks/gauge/steps/StepImplementation.class
+com/thoughtworks/gauge/ModelOfPageObjectFindby.class
+teststuff/Home_PG_POF.class
+com/thoughtworks/gauge/action/pages/MainPage.class
 driver/DriverFactory.class
+driver/PageFactoryMethod.class
+com/thoughtworks/gauge/configuration/actions/MainPageConfiguration.class
+com/thoughtworks/gauge/action/pages/MainPageObjectAction.class
+driver/PageFactoryInitialization.class
 driver/Driver.class
+teststuff/TestCase_POF.class
