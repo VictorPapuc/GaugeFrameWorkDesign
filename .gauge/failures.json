@@ -1,9 +1,9 @@
 {
 	"Args": [
 		"run",
-		"--dir=/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign"
+		"--machine-readable",
+		"--hide-suggestion",
+		"--simple-console"
 	],
-	"FailedItems": [
-		"specs/example.spec:9"
-	]
+	"FailedItems": []
 }

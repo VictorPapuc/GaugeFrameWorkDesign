@@ -9,4 +9,4 @@ To execute this specification, use `mvn test`
 Get Started
 -----------
 * Go to Gauge Get Started Page
-* Ensure installation instructions are available
+//* Ensure installation instructions are available

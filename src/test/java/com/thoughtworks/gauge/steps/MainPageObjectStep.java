@@ -1,9 +1,9 @@
 package com.thoughtworks.gauge.steps;
 
 import com.thoughtworks.gauge.Step;
+
 import com.thoughtworks.gauge.action.pages.MainPageObjectAction;
 import driver.Driver;
-import driver.PageFactoryInitialization;
 import lombok.RequiredArgsConstructor;
 
 import java.util.concurrent.TimeUnit;
@@ -19,10 +19,10 @@ public class MainPageObjectStep {
         Driver.webDriver.manage().window().fullscreen();
         Driver.webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        mainPageObjectAction.menuMainNavigation.click();
-
-        mainPageObjectAction.acceptCookies.click();
-
-        mainPageObjectAction.menuMainNavigation.click();
+//        mainPageObjectAction.menuMainNavigation.click();
+//
+//        mainPageObjectAction.acceptCookies.click();
+//
+//        mainPageObjectAction.menuMainNavigation.click();
     }
 }
