@@ -1,38 +1,28 @@
-package com.thoughtworks.gauge.steps;
+package com.thoughtworks.gauge.mainpage.steps;
 
 import com.thoughtworks.gauge.Step;
-import com.thoughtworks.gauge.action.pages.MainPageObjectAction;
-
+import com.thoughtworks.gauge.mainpage.actions.MainPageActions;
 import driver.Driver;
+import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import selectors.mainpage.MainPageElements;
 
 import java.util.ArrayList;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class StepImplementation {
+public class MainPageSteps {
 
-
-    private final MainPageObjectAction mainPageElements = new MainPageObjectAction();
-
+    private final MainPageActions mainPageElements = new MainPageActions();
 
     @Step("Go to Gauge Get Started Page")
     public void gotoGetStartedPage() throws InterruptedException {
 
+        mainPageElements.verifyMainPage();
 //        WebElement menuMainNavigation = Driver.webDriver.findElement(mainPageObjectAction.menuMainNavigation);
 
-        WebElement homeContent = Driver.webDriver.findElement(By.className("home-content"));
-        WebElement homeBody = Driver.webDriver.findElement(By.className("home-body"));
-
-        ArrayList<WebElement> listOfElementsPresentInPage = new ArrayList<>();
-        listOfElementsPresentInPage.add(mainPageElements.menuMainNavigationDemo);
-        listOfElementsPresentInPage.add(homeContent);
-        listOfElementsPresentInPage.add(homeBody);
-
-        for (WebElement webElement : listOfElementsPresentInPage) {
-            webElement.isDisplayed();
-        }
 
 //        WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='/getting-started-guide/we-start']"));
 //        getStartedButton.click();

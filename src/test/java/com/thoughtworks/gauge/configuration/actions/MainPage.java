@@ -1,4 +1,4 @@
-package com.thoughtworks.gauge.action.pages;
+package com.thoughtworks.gauge.configuration.actions;
 
 import driver.Driver;
 import lombok.AllArgsConstructor;
