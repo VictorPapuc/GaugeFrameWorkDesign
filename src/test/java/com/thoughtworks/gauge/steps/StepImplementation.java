@@ -23,7 +23,7 @@ public class StepImplementation {
         assertThat(instructions).isNotNull();
     }
 
-    @Step("Open the Gauge homepage")
+    @Step("Open the DemoQa homepage")
     public void implementation1() {
         String app_url = System.getenv("APP_URL");
         Driver.webDriver.get(app_url + "/");

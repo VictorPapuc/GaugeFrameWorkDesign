@@ -1,6 +1,6 @@
 [
-	"/usr/local/bin/gauge",
+	"gauge",
 	"run",
-	"--simple-console",
-	"/Users/victor.papuc/IdeaProjects/testselenium/specs/example.spec"
+	"--dir=/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign",
+	"/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/specs"
 ]
