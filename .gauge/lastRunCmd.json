@@ -1,8 +1,6 @@
 [
-	"/opt/homebrew/bin/gauge",
+	"gauge",
 	"run",
-	"--machine-readable",
-	"--hide-suggestion",
-	"--simple-console",
-	"/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/specs/BrowserCommands.spec:9"
+	"--dir=/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign",
+	"/Users/victorpapuc/IdeaProjects/GaugeFrameWorkDesign/specs"
 ]
