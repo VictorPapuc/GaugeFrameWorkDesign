@@ -8,5 +8,5 @@ To execute this specification, use `mvn test`
 
 Get Started
 -----------
-* Go to Gauge Get Started Page
-//* Ensure installation instructions are available
+* Enter elements page
+* Click on text box

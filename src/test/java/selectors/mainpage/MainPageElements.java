@@ -10,6 +10,15 @@ public class MainPageElements {
     @FindBy(id = "fixedban")
     public WebElement menuMainNavigationDemo;
 
+    @FindBy(className = "home-content")
+    public WebElement homeContent;
+
+    @FindBy(className = "home-body")
+    public WebElement homeBody;
+
+    @FindBy(xpath = "//*[@id=\"app\"]/div/div/div[2]/div/div[1]")
+    public WebElement elementsTab;
+
     public MainPageElements() {
         PageFactory.initElements(Driver.webDriver, this);
     }
