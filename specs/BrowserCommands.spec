@@ -5,8 +5,27 @@ This is an executable specification file. This file follows markdown syntax. Eve
 To execute this specification, use `mvn test`
 
 * Open the DemoQa homepage
-
-Get Started
------------
 * Enter elements page
+
+Form
+-----------
 * Click on text box
+* Fill name formular with "Victor Papuc"
+* Clear Text
+* Submit
+* Output is present
+
+CheckBox
+-----------
+* Click On check box
+* Click on check mark
+
+Radio Button
+-----------
+* Click on radio box
+* See elements on the radio box page
+* Select Radio Button
+
+Select Option
+-----------
+* Click on "Radio Button"

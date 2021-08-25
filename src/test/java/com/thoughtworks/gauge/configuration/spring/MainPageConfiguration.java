@@ -1,4 +1,4 @@
-package com.thoughtworks.gauge.configuration.actions;
+package com.thoughtworks.gauge.configuration.spring;
 
 import org.openqa.selenium.WebElement;
 import org.springframework.context.annotation.Bean;
