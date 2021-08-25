@@ -1,4 +1,4 @@
-package selectors.mainpage;
+package selectors.elementpage;
 
 import driver.Driver;
 import org.openqa.selenium.WebElement;
@@ -9,6 +9,15 @@ public class ElementsPage {
 
     @FindBy(id = "item-0")
     public WebElement textBox;
+
+    @FindBy(id = "item-1")
+    public WebElement checkBox;
+
+    @FindBy(id = "item-2")
+    public WebElement radioBox;
+
+    @FindBy(id = "tree-node-home")
+    public WebElement checkField;
 
     @FindBy(id = "userName")
     public WebElement fullName;
@@ -21,6 +30,17 @@ public class ElementsPage {
 
     @FindBy(id = "permanentAddress")
     public WebElement permanentAddress;
+
+    @FindBy(id = "submit")
+    public WebElement submit;
+
+
+    @FindBy(id = "yesRadio")
+    public WebElement yesRadio;
+    @FindBy(id = "impressiveRadio")
+    public WebElement impressiveRadio;
+    @FindBy(id = "noRadio")
+    public WebElement noRadio;
 
     public ElementsPage() {
         PageFactory.initElements(Driver.webDriver, this);

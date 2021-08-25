@@ -1,10 +1,10 @@
-package com.thoughtworks.gauge.configuration.actions;
+package com.thoughtworks.gauge.configuration.enums;
 
 public enum UrlConfiguration {
 
     ELEMENTS("/elements");
 
-    private String URL;
+    private final String URL;
 
     UrlConfiguration(String URL) {
         this.URL = URL;
@@ -12,9 +12,5 @@ public enum UrlConfiguration {
 
     public String getURL() {
         return this.URL;
-    }
-
-    public void setURL(String URL) {
-        this.URL = URL;
     }
 }
