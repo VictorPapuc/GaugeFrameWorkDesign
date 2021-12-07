@@ -1,4 +1,4 @@
-package com.thoughtworks.gauge.configuration.enums;
+package com.app.house.config.enums;
 
 public enum PlaceHolders {
 

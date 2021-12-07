@@ -1,29 +1,23 @@
-package com.thoughtworks.gauge.mainpage.actions;
+package com.app.house.actions;
 
-import driver.Driver;
-import org.openqa.selenium.NoSuchElementException;
+import com.app.house.page.Base;
+import com.app.house.page.mainpage.MainPageElements;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import selectors.mainpage.MainPageElements;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class MainPageActions {
+@Component
+public class MainPageActions extends Base {
 
+    //Add Lombok to not initialize
 
-    private final MainPageElements mainPageElements = new MainPageElements();
-    private final String app_url = System.getenv("APP_URL");
-    WebDriverWait wait = new WebDriverWait(Driver.webDriver, 200);
-
-//    Wait waita = new FluentWait(Driver.webDriver).pollingEvery(Duration.ZERO);
-//
+    private MainPageElements mainPageElements = new MainPageElements();
 
     public void verifyMainPage() {
         ArrayList<WebElement> listOfElementsPresentInPage = new ArrayList<>();
@@ -37,20 +31,19 @@ public class MainPageActions {
     }
 
     public void enterMainPge() {
-        Driver.webDriver.get(app_url + "/");
-        Driver.webDriver.manage()
+        driver.get("https://www.toolsqa.com");
+        driver.manage()
                 .timeouts()
                 .implicitlyWait(2000L, TimeUnit.NANOSECONDS);
 
-        Driver.webDriver.manage()
+        driver.manage()
                 .window().maximize();
 
-        assertThat(Driver.webDriver.getTitle()).contains("ToolsQA");
+        assertThat(driver.getTitle()).contains("Tools QA");
     }
 
     public void clickOnElements() throws Exception {
-
-        wait.until(ExpectedConditions.elementToBeClickable(mainPageElements.elementsTab));
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(mainPageElements.elementsTab));
 
         boolean elementInPage = mainPageElements.elementsTab.isDisplayed();
 
@@ -60,5 +53,10 @@ public class MainPageActions {
             throw new Exception("Element is not on the page");
         }
 
+    }
+
+    @Override
+    public boolean isAt() {
+        return false;
     }
 }

@@ -1,12 +1,8 @@
-package com.thoughtworks.gauge.elementpage.steps;
+package com.app.house.steps;
 
+import com.app.house.page.elementpage.ElementsPage;
 import com.thoughtworks.gauge.Step;
-import com.thoughtworks.gauge.elementpage.actions.ElementsPageActions;
-import driver.Driver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import selectors.elementpage.ElementsPage;
+import com.app.house.actions.ElementsPageActions;
 
 public class ElementsPageSteps {
 
@@ -22,7 +18,7 @@ public class ElementsPageSteps {
 
     @Step("Click on <string>")
     public void clickOnTextBox(String value) throws InterruptedException {
-        elementsPageActions.select(value);
+//        elementsPageActions.select(value);
     }
 
 
@@ -63,7 +59,7 @@ public class ElementsPageSteps {
 
     @Step("Output is present")
     public void outPutIsPresent() {
-        Driver.webDriver.findElement(By.xpath("//*[@id=\"output\"]/div")).isDisplayed();
+//        Driver.webDriver.findElement(By.xpath("//*[@id=\"output\"]/div")).isDisplayed();
     }
 
     @Step("Select Radio Button")

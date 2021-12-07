@@ -6,3 +6,7 @@ target/generated-test-sources
 target/test-classes
 target/maven-status
 target
+.idea/compiler.xml
+.gauge/failures.json
+.gauge/lastRunCmd.json
+reports/html-report/index.html
