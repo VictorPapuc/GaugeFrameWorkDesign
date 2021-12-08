@@ -1,4 +1,4 @@
-package com.app.house.page;
+package com.app.house.config;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

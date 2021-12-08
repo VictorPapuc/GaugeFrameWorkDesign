@@ -1,13 +1,13 @@
 package com.app.house.steps;
 
-import com.app.house.page.elementpage.ElementsPage;
-import com.thoughtworks.gauge.Step;
 import com.app.house.actions.ElementsPageActions;
+import com.thoughtworks.gauge.Step;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class ElementsPageSteps {
 
-    ElementsPageActions elementsPageActions = new ElementsPageActions();
-    ElementsPage elementsPage = new ElementsPage();
+    @Autowired
+    private ElementsPageActions elementsPageActions;
 
     @Step("Click on text box")
     public void clickOnTextBox() throws Exception {
@@ -47,10 +47,10 @@ public class ElementsPageSteps {
         elementsPageActions.inputTextToFullName(name);
     }
 
-    @Step("Clear Text")
-    public void clearText() {
-        elementsPageActions.clearText(elementsPage.fullName);
-    }
+//    @Step("Clear Text")
+//    public void clearText() {
+//        elementsPageActions.clearText(elementsPage.fullName);
+//    }
 
     @Step("Submit")
     public void submit() {

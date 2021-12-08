@@ -1,6 +1,6 @@
 package com.app.house.actions;
 
-import com.app.house.page.Base;
+import com.app.house.config.Base;
 import com.app.house.page.mainpage.MainPageElements;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,7 +15,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Component
 public class MainPageActions extends Base {
 
-    //Add Lombok to not initialize
     @Autowired
     private MainPageElements mainPageElements;
 

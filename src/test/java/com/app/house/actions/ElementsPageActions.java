@@ -2,16 +2,21 @@ package com.app.house.actions;
 
 import com.app.house.config.Utilities;
 import com.app.house.config.enums.PlaceHolders;
-import com.app.house.page.Base;
+import com.app.house.config.Base;
 import com.app.house.page.elementpage.ElementsPage;
 import org.openqa.selenium.WebElement;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Component
 public class ElementsPageActions extends Base implements Utilities {
-    ElementsPage elementsPage = new ElementsPage();
+
+    @Autowired
+    private ElementsPage elementsPage;
 
     public void clickOnTextBox() {
         elementsPage.textBox.click();

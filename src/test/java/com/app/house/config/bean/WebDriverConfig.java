@@ -1,5 +1,7 @@
 package com.app.house.config.bean;
 
+import com.app.house.page.elementpage.ElementsPage;
+import com.app.house.steps.ElementsPageSteps;
 import com.app.house.steps.MainPageSteps;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -25,6 +27,11 @@ public class WebDriverConfig {
     @Bean
     public MainPageSteps mainPageSteps() {
         return new MainPageSteps();
+    }
+
+    @Bean
+    public ElementsPageSteps elementsPageSteps() {
+        return new ElementsPageSteps();
     }
 
 }

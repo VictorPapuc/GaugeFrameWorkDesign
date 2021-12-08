@@ -10,7 +10,7 @@ Form
 -----------
 * Open the DemoQa homepage
 * Enter elements page
-//* Click on text box
+* Click on text box
 //* Fill name formular with "Victor Papuc"
 //* Clear Text
 //* Submit

@@ -1,9 +1,11 @@
 package com.app.house.page.elementpage;
 
-import com.app.house.page.Base;
+import com.app.house.config.Base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ElementsPage extends Base {
 
     @FindBy(id = "item-0")
