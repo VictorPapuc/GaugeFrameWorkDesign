@@ -1,4 +1,4 @@
-package com.thoughtworks.gauge.configuration;
+package com.app.house.config;
 
 import org.openqa.selenium.WebElement;
 

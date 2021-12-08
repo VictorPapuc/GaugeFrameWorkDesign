@@ -2,10 +2,43 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.1</version>
+        <relativePath/>
+    </parent>
+
     <groupId>com.thoughtworks.gauge.maven</groupId>
     <artifactId>testselenium</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>spring-gauge-framework</name>
+    <description>Spring Boot BDD Framework</description>
+    <properties>
+        <java.version>11</java.version>
+        <selenium.version>4.1.0</selenium.version>
+        <webdrivermanager.version>5.0.3</webdrivermanager.version>
+    </properties>
+
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
@@ -21,28 +54,29 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
-            <scope>test</scope>
+            <version>${selenium.version}</version>
         </dependency>
+
+
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>3.7.0</version>
+            <version>${webdrivermanager.version}</version>
         </dependency>
-		<dependency>
+        <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
             <version>0.9.10</version>
         </dependency>
 
-<!-- lombok annotation-->
+        <!-- lombok annotation-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.10</version>
             <scope>provided</scope>
         </dependency>
-<!--        log4j dependency -->
+        <!--        log4j dependency -->
 
         <dependency>
             <groupId>log4j</groupId>
@@ -50,17 +84,28 @@
             <version>1.2.17</version>
         </dependency>
 
-<!-- appium dependency-->
+        <!-- appium dependency-->
 
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>7.2.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thoughtworks.gauge</groupId>
+            <artifactId>gauge-java</artifactId>
+            <version>0.7.15</version>
+            <scope>compile</scope>
+        </dependency>
 
     </dependencies>
 
-<!--spring to do , to make-->
+    <!--spring to do , to make-->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -81,6 +126,10 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
@@ -90,21 +139,26 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>com.thoughtworks.gauge.maven</groupId>
-                <artifactId>gauge-maven-plugin</artifactId>
-                <version>1.3.3</version>
-                <executions>
-                    <execution>
-                        <phase>test</phase>
-                        <configuration>
-                            <specsDir>specs</specsDir>
-                        </configuration>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
             </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>com.thoughtworks.gauge.maven</groupId>-->
+            <!--                <artifactId>gauge-maven-plugin</artifactId>-->
+            <!--                <version>1.3.3</version>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <phase>test</phase>-->
+            <!--                        <configuration>-->
+            <!--                            <specsDir>specs</specsDir>-->
+            <!--                        </configuration>-->
+            <!--                        <goals>-->
+            <!--                            <goal>execute</goal>-->
+            <!--                        </goals>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
         </plugins>
     </build>
 

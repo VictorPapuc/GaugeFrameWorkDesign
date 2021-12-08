@@ -1,17 +1,13 @@
-package com.thoughtworks.gauge.elementpage.steps;
+package com.app.house.steps;
 
+import com.app.house.actions.ElementsPageActions;
 import com.thoughtworks.gauge.Step;
-import com.thoughtworks.gauge.elementpage.actions.ElementsPageActions;
-import driver.Driver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import selectors.elementpage.ElementsPage;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class ElementsPageSteps {
 
-    ElementsPageActions elementsPageActions = new ElementsPageActions();
-    ElementsPage elementsPage = new ElementsPage();
+    @Autowired
+    private ElementsPageActions elementsPageActions;
 
     @Step("Click on text box")
     public void clickOnTextBox() throws Exception {
@@ -22,7 +18,7 @@ public class ElementsPageSteps {
 
     @Step("Click on <string>")
     public void clickOnTextBox(String value) throws InterruptedException {
-        elementsPageActions.select(value);
+//        elementsPageActions.select(value);
     }
 
 
@@ -51,10 +47,10 @@ public class ElementsPageSteps {
         elementsPageActions.inputTextToFullName(name);
     }
 
-    @Step("Clear Text")
-    public void clearText() {
-        elementsPageActions.clearText(elementsPage.fullName);
-    }
+//    @Step("Clear Text")
+//    public void clearText() {
+//        elementsPageActions.clearText(elementsPage.fullName);
+//    }
 
     @Step("Submit")
     public void submit() {
@@ -63,7 +59,7 @@ public class ElementsPageSteps {
 
     @Step("Output is present")
     public void outPutIsPresent() {
-        Driver.webDriver.findElement(By.xpath("//*[@id=\"output\"]/div")).isDisplayed();
+//        Driver.webDriver.findElement(By.xpath("//*[@id=\"output\"]/div")).isDisplayed();
     }
 
     @Step("Select Radio Button")

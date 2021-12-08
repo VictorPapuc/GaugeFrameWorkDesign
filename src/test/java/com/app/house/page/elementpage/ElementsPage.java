@@ -1,11 +1,12 @@
-package selectors.elementpage;
+package com.app.house.page.elementpage;
 
-import driver.Driver;
+import com.app.house.config.Base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.springframework.stereotype.Component;
 
-public class ElementsPage {
+@Component
+public class ElementsPage extends Base {
 
     @FindBy(id = "item-0")
     public WebElement textBox;
@@ -42,8 +43,8 @@ public class ElementsPage {
     @FindBy(id = "noRadio")
     public WebElement noRadio;
 
-    public ElementsPage() {
-        PageFactory.initElements(Driver.webDriver, this);
+    @Override
+    public boolean isAt() {
+        return this.webDriverWait.until((d) -> this.textBox.isDisplayed());
     }
-
 }

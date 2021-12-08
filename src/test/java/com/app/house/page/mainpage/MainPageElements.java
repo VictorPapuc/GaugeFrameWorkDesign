@@ -1,11 +1,12 @@
-package selectors.mainpage;
+package com.app.house.page.mainpage;
 
-import driver.Driver;
+import com.app.house.config.Base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.springframework.stereotype.Component;
 
-public class MainPageElements {
+@Component
+public class MainPageElements extends Base {
 
     @FindBy(id = "fixedban")
     public WebElement menuMainNavigationDemo;
@@ -19,7 +20,8 @@ public class MainPageElements {
     @FindBy(xpath = "//*[@id=\"app\"]/div/div/div[2]/div/div[1]")
     public WebElement elementsTab;
 
-    public MainPageElements() {
-        PageFactory.initElements(Driver.webDriver, this);
+    @Override
+    public boolean isAt() {
+        return this.webDriverWait.until((driveInstance) -> this.menuMainNavigationDemo.isDisplayed());
     }
 }

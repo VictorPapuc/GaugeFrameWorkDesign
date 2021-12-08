@@ -1,29 +1,26 @@
-package com.thoughtworks.gauge.elementpage.actions;
+package com.app.house.actions;
 
-import com.thoughtworks.gauge.configuration.Utilities;
-import com.thoughtworks.gauge.configuration.enums.PlaceHolders;
-import driver.Driver;
-import org.openqa.selenium.By;
+import com.app.house.config.Utilities;
+import com.app.house.config.enums.PlaceHolders;
+import com.app.house.config.Base;
+import com.app.house.page.elementpage.ElementsPage;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-import selectors.elementpage.ElementsPage;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class ElementsPageActions implements Utilities {
-    ElementsPage elementsPage = new ElementsPage();
+@Component
+public class ElementsPageActions extends Base implements Utilities {
 
-    public void select(String value) {
-        Driver.webDriver.findElement(By.linkText(value)).click();
-    }
+    @Autowired
+    private ElementsPage elementsPage;
 
     public void clickOnTextBox() {
         elementsPage.textBox.click();
     }
-
 
     public void clickOnCheckBox() {
         elementsPage.checkBox.click();
@@ -35,12 +32,12 @@ public class ElementsPageActions implements Utilities {
 
     public void clickOnCheckField() {
 
-        WebElement checkbox = Driver.webDriver.findElement(By.className("rct-title"));
-        boolean isSelected = elementsPage.checkField.isSelected();
-        if (!isSelected) {
-            checkbox.click();
-        }
-        assertThat(checkbox.isEnabled()).isTrue();
+//        WebElement checkbox = Driver.webDriver.findElement(By.className("rct-title"));
+//        boolean isSelected = elementsPage.checkField.isSelected();
+//        if (!isSelected) {
+//            checkbox.click();
+//        }
+//        assertThat(checkbox.isEnabled()).isTrue();
     }
 
 
@@ -125,6 +122,11 @@ public class ElementsPageActions implements Utilities {
 
     public void clickOnRadioOption() {
         radioPageElements().get(0).click();
+    }
+
+    @Override
+    public boolean isAt() {
+        return false;
     }
 }
 
