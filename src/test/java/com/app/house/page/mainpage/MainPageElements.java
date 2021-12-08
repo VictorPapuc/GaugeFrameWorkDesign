@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.springframework.stereotype.Component;
 
+@Component
 public class MainPageElements extends Base {
 
     @FindBy(id = "fixedban")
@@ -21,6 +22,6 @@ public class MainPageElements extends Base {
 
     @Override
     public boolean isAt() {
-        return this.webDriverWait.until((driveInstance) -> this.elementsTab.isDisplayed());
+        return this.webDriverWait.until((driveInstance) -> this.menuMainNavigationDemo.isDisplayed());
     }
 }

@@ -13,14 +13,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ElementsPageActions extends Base implements Utilities {
     ElementsPage elementsPage = new ElementsPage();
 
-//    public void select(String value) {
-//        Driver.webDriver.findElement(By.linkText(value)).click();
-//    }
-
     public void clickOnTextBox() {
         elementsPage.textBox.click();
     }
-
 
     public void clickOnCheckBox() {
         elementsPage.checkBox.click();

@@ -16,8 +16,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MainPageActions extends Base {
 
     //Add Lombok to not initialize
-
-    private MainPageElements mainPageElements = new MainPageElements();
+    @Autowired
+    private MainPageElements mainPageElements;
 
     public void verifyMainPage() {
         ArrayList<WebElement> listOfElementsPresentInPage = new ArrayList<>();
@@ -31,7 +31,7 @@ public class MainPageActions extends Base {
     }
 
     public void enterMainPge() {
-        driver.get("https://www.toolsqa.com");
+        driver.get("https://demoqa.com/");
         driver.manage()
                 .timeouts()
                 .implicitlyWait(2000L, TimeUnit.NANOSECONDS);
@@ -39,7 +39,7 @@ public class MainPageActions extends Base {
         driver.manage()
                 .window().maximize();
 
-        assertThat(driver.getTitle()).contains("Tools QA");
+        assertThat(driver.getTitle()).contains("ToolsQA");
     }
 
     public void clickOnElements() throws Exception {
